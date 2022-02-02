@@ -15,7 +15,7 @@ CHECKLIST:
 [] 2pts each - What questions (from above) can be answered using the data in this dataset
 -->
 
-# COVID-19 and GHG Emissions - Code Name: example
+# COVID-19 and GHG Emissions - Code Name: COVID-Emissions
 * **Authors:** Justin Rhinehart, Ryan Friesz, Tom Jubin, Liam Dale
 * **Affiliation:** INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
 * **Date:** Winter 2022
@@ -39,10 +39,10 @@ Use short sub-sections to describe your topic and the setting (that is, the soci
 3-5 research questions. What motivates the questions? Why are they important? See the Deign Brief, section B.4. (about 150 words)
 
 * How did COVID restrictions impact GHG emissions on a state-by-state basis?
-* Did COVID make any significant change in the amount of pollution, compared to 'ideal' 0 GHG emissions models?
-* How much pollution was actually prevented compared to pre-pandemic models of pollution?
-* Did states which had harsher restrictions offset enough GHG emission from cars, etc... to combat increased power usage to be useful?
-* New Zealand as a control? They continued as normal, how were their greenhouse gas emissions different from other countries which suffered more from COVID?
+* How did COVID restrictions worldwide affect GHG emissions? - Ryan
+* Did COVID make any significant change in the amount of pollution, compared to 'ideal' 0 GHG emissions models? How much pollution was actually prevented compared to pre-pandemic models of pollution? - Liam
+* How much GHG emissions have been prevented due to shutdown of factories worldwide?
+
 
 ### The Dataset:
 
