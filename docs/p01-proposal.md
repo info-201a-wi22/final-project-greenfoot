@@ -1,7 +1,3 @@
-# Title of your Project: Project Proposal 
-
-**TODO**: Edit this file. Your project proposal goes here. Save and delete the developer notes when done.
-
 <!--
 CHECKLIST:
 --- Project Set Up
@@ -19,46 +15,44 @@ CHECKLIST:
 [] 2pts each - What questions (from above) can be answered using the data in this dataset
 -->
 
-## --- Domain of Interest ---
+# Project Title - Code Name: example
+**Authors:** Author 1, Author 2, Author 3, Author 4
+**Affiliation:** INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
+**Date:** Winter 2022
 
-### Topic: _GHG Emissions from pre-pandemic (2017, 2018, 2019) to 2020_
+### Abstract:
 
-#### Why are we interested in this topic? (2 - 3 sentences)
+No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., becuase .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
 
-* We are interested in this topic because we really really care about the environment, also blah blah blah...
+**Keywords:** example, example
 
-#### Questions related to the field?
+### Introduction:
 
-* temp question 1
-* temp question 2
+Briefly introduce your project. (about 150 words)
 
-#### A description of how we can answer our questions using data? (e.g., a specific comparison within or analysis of the data that answers the question)
+### Design Situation:
 
-* Coal machine go brrr...
+Use short sub-sections to describe your topic and the setting (that is, the sociotechnical situation), including project framing, human values, direct and indirect stakeholders, possible harms and benefits. See the Design Brief, section B.3. Note: You must include three citations to related work (URLs to similar work, high quality articles from the popular press, reseach papers, etc. ). You may find it helpful to include a figure. (about 400 words)
 
-## --- List of Relevant Data Driven Projects ---
+### Research Questions:
 
-* [EPA's greenhouse gas reporting program](https://www.epa.gov/ghgreporting/data-sets)
-* [Archive of emissions data dating to 1750-2019](https://www.kaggle.com/srikantsahu/co2-and-ghg-emission-data)
-* should probably add a couple more here to make it look like we did research
+3-5 research questions. What motivates the questions? Why are they important? See the Deign Brief, section B.4. (about 150 words)
 
+### The Dataset:
 
-## --- Our Chosen Data and Description ---
+See Design Brief, setions B.5 (Size and complexity) and B.6 (Data provenance). Use short sub-sections for describing the size and complexity of the dataset and for describing the origins fo the data. (about 400 words)
 
-### Our Chosen Dataset: The EPA's Greenhouse Gas Reporting Program
+### Expected Implications:
 
-#### How was this data collected / generated?
+Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (about 150 words)
 
-* The EPA mobile personally went around collecting all of this data.
+### Limitations:
 
-#### How many observations (rows) and features (columns) are in your data?
+What limitations might you need to address? Briefly discuss. (about 150 words)
 
-* a couple rows, maybe a few columns.
+**Acknowledgements:**
 
-#### What questions (from above) can be answered using the data in this dataset?
-
-* temp question 1 can be answered because blah blah blah
-* temp question 2 on the other hand is blah blah blah
+**References:**
 
 ## Developer Notes
 
