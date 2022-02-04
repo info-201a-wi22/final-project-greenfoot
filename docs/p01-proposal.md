@@ -16,7 +16,7 @@ CHECKLIST:
 -->
 
 # COVID-19 and GHG Emissions, What Can We Learn? - Code Name: Greenfoot
-* **Authors:** Justin Rhinehart @ EMAIL, Ryan Friesz @ EMAIL, Tom Jubin @ EMAIL, Liam Dale @ liamdale@uw.edu
+* **Authors:** Justin Rhinehart @ EMAIL, Ryan Friesz @ EMAIL, Tom Jubin @tomjubin.edu , Liam Dale @ liamdale@uw.edu
 * **Affiliation:** INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
 * **Date:** Winter 2022
 
