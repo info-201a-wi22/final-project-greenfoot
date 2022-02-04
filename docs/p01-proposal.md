@@ -127,6 +127,14 @@ I realized that these first two questions are more than a little bit vague, so I
 I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph!
 
 ### The Dataset (LIAM + EVERYBODYS DATA):
+
+* Who or what is represented in the data?
+* What is an observation? What variables are included (and excluded)?  
+* Who  collected  the  data?  When?  For  what  purpose?  How  was  the  data  collection  effort
+funded? Who is likely to benefit from the data or make money?
+* How was the data validated and held secure?  Is it credible and trustworthy?  
+* How did you obtain the data? Do you credit the source of the data?
+
 EPA Air Emissions Dataset
 * This dataset contains approx. 8 millions entries of specific greenhouse gas types, emissions levels and locations across the united states from 2011 to 2020
 * Gathered from EPA monitoring systems and devices on the continental United states.
@@ -136,20 +144,17 @@ European Environment Agency Industrial Reporting database
 * Gathered from EEA monitoring systems and devices in participating European countries
 
 Global Carbon Budget 2021
-* TODO: Dataset contents
-* TODO: How dataset was gathered
+* The dataset contains fossil fuel emissions (CO2 mainly) dating from 1959 to 2021. Rows from the dataset are in MtC/yr (million tonne of carbon per year), with recorded features being types different ways of emission (Oil, Gas, etc.) and the country of origin. The data was collected from NOAA and a U.S. DOE organization, this data was funded by government programs and as such isn't profit focused. I believe this dataset was created primarily for climate researchers. The data is credible as it comes directly from a scientific journal (Earth System Science Data) and the Global Carbon Project which authored the report which collected and cleaned this data is a partner of United Nation's World Climate Research Programme.
 
 IPCC AR5 WGIII Database
-* TODO: Dataset contents
-* TODO: How dataset was gathered
-
+* This dataset contains models from Intergovernmental Panel on Climate Change (IPCC) dating from 2015. The models used mostly date from 2005-2100 and contain measurements in Mt CO2/yr, Mt CH4/yr, etc. as well as population and GDP estimates, in addition the data is sorted by region ASIA, NA, SA, etc. These models were created from the United Nation's IPCC and as such guarantees that the dataset with created with a non-profit focus, with the purpose of being used in IPCC's annual climate report. This data is credible as it originates from the United Nations.
 
 _(REMOVE LATER) See Design Brief, setions B.5 (Size and complexity) and B.6 (Data provenance). Use short sub-sections for describing the size and complexity of the dataset and for describing the origins fo the data. (about 400 words)_
 
 ### Expected Implications (TOM):
 With the Covid-19 pandemic, there was a decrease/downtrend in total greenhouse gas emissions outputted. The expected implications of this are that policymakers will be ablet to see that with dramatic global shutdown, minimizing the direct emissions into our atmosphere is very possible on a large scale. The obvious problem however is that life will not be in lockdown forever, but this temporary period may give some insight for a further permanent solution in decreasing emissions. By taking a deeper look into which and where certain emissions experienced drastic change, it may be possible to pinpoint or target a specific area/region to prioritize first for maximum efficiency when trying to tackle the issues.
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (about 150 words)_
+_Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (about 150 words)_
 
 ### Limitations (TOM):
 TEST
@@ -163,7 +168,7 @@ Environmental Protection Agency. (2020). Air Emissions Dataset (Version number) 
 
 European Environment Agency. (2021). Industrial Reporting database (v5) [CSV]. Retrieved from https://www.eea.europa.eu/data-and-maps/data/industrial-reporting-under-the-industrial-4
 
-Friedlingstein, P., Jones, M. W., O'Sullivan, M., Andrew, R. M., Bakker, D. C. E., Hauck, J., Le Quéré, C., Peters, G. P., Peters, W., Pongratz, J., Sitch, S., Canadell, J. G., Ciais, P., Jackson, R. B., Alin, S. R., Anthoni, P., Bates, N. R., Becker, M., Bellouin, N., Bopp, L., Chau, T. T. T., Chevallier, F., Chini, L. P., Cronin, M., Currie, K. I., Decharme, B., Djeutchouang, L., Dou, X., Evans, W., Feely, R. A., Feng, L., Gasser, T., Gilfillan, D., Gkritzalis, T., Grassi, G., Gregor, L., Gruber, N., Gürses, Ö., Harris, I., Houghton, R. A., Hurtt, G. C., Iida, Y., Ilyina, T., Luijkx, I. T., Jain, A. K., Jones, S. D., Kato, E., Kennedy, D., Klein Goldewijk, K., Knauer, J., Korsbakken, J. I., Körtzinger, A., Landschützer, P., Lauvset, S. K., Lefèvre, N., Lienert, S., Liu, J., Marland, G., McGuire, P. C., Melton, J. R., Munro, D. R., Nabel, J. E. M. S., Nakaoka, S.-I., Niwa, Y., Ono, T., Pierrot, D., Poulter, B., Rehder, G., Resplandy, L., Robertson, E., Rödenbeck, C., Rosan, T. M., Schwinger, J., Schwingshackl, C., Séférian, R., Sutton, A. J., Sweeney, C., Tanhua, T., Tans, P. P., Tian, H., Tilbrook, B., Tubiello, F., van der Werf, G., Vuichard, N., Wada, C., Wanninkhof, R., Watson, A., Willis, D., Wiltshire, A. J., Yuan, W., Yue, C., Yue, X., Zaehle, S., and Zeng, J.: Global Carbon Budget 2021, Earth Syst. Sci. Data Discuss. [preprint], https://doi.org/10.5194/essd-2021-386, in review, (2021). [XLSX] Retrieved from https://www.icos-cp.eu/science-and-impact/global-carbon-budget/2021
+Friedlingstein, P., Jones, M. W., O'Sullivan, M., Andrew, R. M., Bakker, D. C. E., Hauck, J., Le Quéré, C., Peters, G. P., Peters, W., Pongratz, J., Sitch, S., Canadell, J. G., Ciais, P., Jackson, R. B., Alin, S. R., Anthoni, P., Bates, N. R., Becker, M., Bellouin, N., Bopp, L., Chau, T. T. T., Chevallier, F., Chini, L. P., Cronin, M., Currie, K. I., Decharme, B., Djeutchouang, L., Dou, X., Evans, W., Feely, R. A., Feng, L., Gasser, T., Gilfillan, D., Gkritzalis, T., Grassi, G., Gregor, L., Gruber, N., Gürses, Ö., Harris, I., Houghton, R. A., Hurtt, G. C., Iida, Y., Ilyina, T., Luijkx, I. T., Jain, A. K., Jones, S. D., Kato, E., Kennedy, D., Klein Goldewijk, K., Knauer, J., Korsbakken, J. I., Körtzinger, A., Landschützer, P., Lauvset, S. K., Lefèvre, N., Lienert, S., Liu, J., Marland, G., McGuire, P. C., Melton, J. R., Munro, D. R., Nabel, J. E. M. S., Nakaoka, S.-I., Niwa, Y., Ono, T., Pierrot, D., Poulter, B., Rehder, G., Resplandy, L., Robertson, E., Rödenbeck, C., Rosan, T. M., Schwinger, J., Schwingshackl, C., Séférian, R., Sutton, A. J., Sweeney, C., Tanhua, T., Tans, P. P., Tian, H., Tilbrook, B., Tubiello, F., van der Werf, G., Vuichard, N., Wada, C., Wanninkhof, R., Watson, A., Willis, D., Wiltshire, A. J., Yuan, W., Yue, C., Yue, X., Zaehle, S., and Zeng, J.: Global Carbon Budget 2021, Earth Syst. Sci. Data Discuss. [preprint], https://doi.org/10.5194/essd-2021-386, in review, (2021). [XLSX] Retrieved from https://www.icos-cp.eu/science-and-impact/global-carbon-budget/2021. [CSV] Retrieved from https://zenodo.org/record/5569235#.YYxC8tZBxjw.
 
 IPCC. (2015). AR5 Scenario Database (v1.0.2) [CSV]. Retrieved from https://tntcat.iiasa.ac.at/AR5DB/dsd?Action=htmlpage&page=about
 
