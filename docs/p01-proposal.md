@@ -16,13 +16,11 @@ CHECKLIST:
 -->
 
 # COVID-19 and GHG Emissions, What Can We Learn? - Code Name: Greenfoot
-* **Authors:** Justin Rhinehart @ EMAIL, Ryan Friesz @ EMAIL, Tom Jubin @tomjubin.edu , Liam Dale @ liamdale@uw.edu
+* **Authors:** Justin Rhinehart @ jjrhine@uw.edu, Ryan Friesz @ ref7@uw.edu, Tom Jubin @ tomjubin.edu, Liam Dale @ liamdale@uw.edu
 * **Affiliation:** INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
 * **Date:** Winter 2022
 
 ### Abstract (LIAM):
-
-_(REMOVE LATER) No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., becuase .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."_
 
 We are concerned with GHG emissions and the drastic effects it will have on our climate. This matters to us as within our lifetime we will be facing the damaging effects the climate crisis. To address our concern, we plan to use COVID-19 pandemic and the short drop in GHG emissions which followed as an example to how we can reduce our carbon footprint in the future.
 
@@ -135,12 +133,10 @@ funded? Who is likely to benefit from the data or make money?
 * How did you obtain the data? Do you credit the source of the data?
 
 EPA Air Emissions Dataset
-* This dataset contains approx. 8 millions entries of specific greenhouse gas types, emissions levels and locations across the united states from 2011 to 2020
-* Gathered from EPA monitoring systems and devices on the continental United states.
+* This dataset contains approx. 8 millions entries of specific greenhouse gas types, emissions levels and locations across the united states from 2011 to 2020. The dataset was gathered from EPA monitoring systems and devices on the continental United states.
 
 European Environment Agency Industrial Reporting database
-* Dataset contains data pertaining to greenhouse gas emissions in participating European countries from 2010-2021, on a national, sector, and facility level
-* Gathered from EEA monitoring systems and devices in participating European countries
+* Dataset contains data pertaining to greenhouse gas emissions in participating European countries from 2010-2021, on a national, sector, and facility level. The data was gathered from EEA monitoring systems and devices in participating European countries.
 
 Global Carbon Budget 2021
 * The dataset contains fossil fuel emissions (CO2 mainly) dating from 1959 to 2021. Rows from the dataset are in MtC/yr (million tonne of carbon per year), with recorded features being types different ways of emission (Oil, Gas, etc.) and the country of origin. The data was collected from NOAA and a U.S. DOE organization, this data was funded by government programs and as such isn't profit focused. I believe this dataset was created primarily for climate researchers. The data is credible as it comes directly from a scientific journal (Earth System Science Data) and the Global Carbon Project which authored the report which collected and cleaned this data is a partner of United Nation's World Climate Research Programme.
@@ -148,15 +144,11 @@ Global Carbon Budget 2021
 IPCC AR5 WGIII Database
 * This dataset contains models from Intergovernmental Panel on Climate Change (IPCC) dating from 2015. The models used mostly date from 2005-2100 and contain measurements in Mt CO2/yr, Mt CH4/yr, etc. as well as population and GDP estimates, in addition the data is sorted by region ASIA, NA, SA, etc. These models were created from the United Nation's IPCC and as such guarantees that the dataset with created with a non-profit focus, with the purpose of being used in IPCC's annual climate report. This data is credible as it originates from the United Nations.
 
-_(REMOVE LATER) See Design Brief, setions B.5 (Size and complexity) and B.6 (Data provenance). Use short sub-sections for describing the size and complexity of the dataset and for describing the origins fo the data. (about 400 words)_
-
 ### Expected Implications (TOM):
 * With the Covid-19 pandemic, there was a decrease/downtrend in total greenhouse gas emissions outputted. The expected implications of this are that policymakers will be able to see that with dramatic global shutdown, minimizing the direct emissions into our atmosphere is very possible on a large scale. The obvious problem however is that life will not be in lockdown forever, but this temporary period may give some insight for a further permanent solution in decreasing emissions. By taking a deeper look into which and where certain emissions experienced drastic change, it may be possible to pinpoint or target a specific area/region to prioritize first for maximum efficiency when trying to tackle the issues.
 
 ### Limitations (TOM):
 * The limitations to this study would be that we can only work with the provided data on record. Also, this data for reported GHG emissions is exactly that: reported. Therefore, although the data is as accurate as we have possible, it is most likely not exactly reflective of the true GHG emissions experienced.
-
-**Acknowledgements:**
 
 **References:**
 
