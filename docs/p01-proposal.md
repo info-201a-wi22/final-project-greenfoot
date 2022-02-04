@@ -147,8 +147,9 @@ IPCC AR5 WGIII Database
 _(REMOVE LATER) See Design Brief, setions B.5 (Size and complexity) and B.6 (Data provenance). Use short sub-sections for describing the size and complexity of the dataset and for describing the origins fo the data. (about 400 words)_
 
 ### Expected Implications (TOM):
-TEST
-_(REMOVE LATER) Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (about 150 words)_
+With the Covid-19 pandemic, there was a decrease/downtrend in total greenhouse gas emissions outputted. The expected implications of this are that policymakers will be ablet to see that with dramatic global shutdown, minimizing the direct emissions into our atmosphere is very possible on a large scale. The obvious problem however is that life will not be in lockdown forever, but this temporary period may give some insight for a further permanent solution in decreasing emissions. By taking a deeper look into which and where certain emissions experienced drastic change, it may be possible to pinpoint or target a specific area/region to prioritize first for maximum efficiency when trying to tackle the issues.
+
+Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (about 150 words)_
 
 ### Limitations (TOM):
 TEST
