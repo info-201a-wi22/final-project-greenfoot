@@ -40,53 +40,61 @@ _(REMOVE LATER) Use short sub-sections to describe your topic and the setting (t
 
 * What  is  the  topic  of  concern,  problem  domain  or  design  situation?
 
-ANSWER GOES HERE!
+Our topic of concern is the amount of green house gas emissions, because all of us are concerned with trying to mitigate the affects of climate change.
+We will look at how GHG emissions decreased temporarily because of restrictions relating to Covid-19, and see what we can learn from that decrease in
+emissions. This problem domain falls under researching emissions and the leading cause of climate change. We hope to uncover data which demonstrates
+how changes because of Covid-19 reduced GHG emissions. [GHG emissions during Covid-19](https://www.frontiersin.org/articles/10.3389/fenvs.2021.764294/full)
 
 * What  are  the  key  elements  of  the  topic?  What  are  the  key  scientific,  cultural,  social, governmental, of economic issues or questions?  
 
-ANSWER GOES HERE!
+The key elements relating to this topic are finding accurate data which shows the amount of GHG emissions while much of the world was in lockdown
+because of Covid-19. Some of the key questions relating to this data will be finding which policies and laws directly led to the change in GHG emissions, and analyzing how effective they were at reducing GHG emissions. One of the main economic questions to ask is, how did these restrictions
+affect the GDP and unemployment rate of countries. Finding the restrictions which caused the lest amount of economic damage while also greatly
+reducing GHG emissions could lead to ideas mitigating climate change going forward.
 
 ###### _Human values:_
 
 * What human values are within or connected to your topic of concern?
 
-ANSWER GOES HERE!
+The main human values within our project are that humans are causing the GHG emissions. Many of the emissions that reduced during lockdown were
+because people were not traveling as much. The actions and jobs which people take in their everyday lives directly contribute to the emissions data,
+so this project will also reveal to us what activities people stopped which decreased GHG emissions during Covid-19 lockdown.
 
 * Where do the values seem to originate?
 
-ANSWER GOES HERE!
-
+The values related to GHG emissions are a big part of society. Transportation, factories, and producing food all contribute to emissions. We
+are not suggesting that completely stopping these parts of life is a good things, but we are analyzing just how much GHG could be eliminated if
+people made changes to their routines. The drastic changes caused by Covid-19 inadvertently caused many people to decrease their GHG emissions.
+[Human values and climate change](https://mitpress.universitypressscholarship.com/view/10.7551/mitpress/9780262017534.001.0001/upso-9780262017534-chapter-15)
 * What value tensions among different values are present?  
 
-ANSWER GOES HERE!
+Some tensions that arise are the fact that many people do not have a good memory of being in Covid-19 lockdown. It was a tough time, especially for
+certain people, and I think there could be hesitancy to try and use some of the policies during this time going forward. This project is not about
+promoting lockdown in order to stop climate change, it just wants to evaluate data to see how much of a difference the policies made in reducing GHG emissions. Maybe we can learn from these changes and moving forward use the information as a way to decrease GHG emissions.
 
 ###### _Stakeholders:_  
 
 * Who  are  the  direct  stakeholders  of  your  topic  of  interest?  
 
-ANSWER GOES HERE!
+Direct stakeholders in our topic are people who are most affected by climate change. In some parts of the world rising sea levels are displacing people already, and climate change is causing difficulty for farmers. Almost everyone can benefit from learning about what we can do to reduce our GHG emissions, so that we can all live in a sustainable world. [Major Stakeholder in Climate Change](https://www.unep.org/civil-society-engagement/why-civil-society-matters/major-groups-stakeholders)
 
 * What  skills  are assumed?
 
-ANSWER GOES HERE!
+Some skills that are assumed is a small amount of prior knowledge regarding how GHG emissions directly contribute to climate change. This prior knowledge will help frame the overall research motivation.
 
 * What motivations and values do they hold? And, who are the indirect stakeholders.
 
-ANSWER GOES HERE!
+Indirect stakeholders include politicians and businesses. Governments around the world are still trying to figure out the best policies for dealing with climate change. Having more data on how recent policies affected GHG emissions is very useful when thinking about what policies to create in the future. Businesses also feel the negative affects of climate change, and many CEO's want to reduce the amount of emission they have. Looking at data to see how restrictions drastically reduced GHG emissions is of interest to them.
 
 ###### _Benefits  and  harms:_  
 
 * If  interventions  are  taken  with  data  and  technology,  what  are  the potential benefits and harms?
 
-ANSWER GOES HERE!
+Potential benefits are that data can help people make more educated decisions, and can support ideas with real world examples. Benefits could include more informed restrictions which are more effective and narrowly drawn in order to reduce GHG emissions. Harms could arise if decisions are made with data that is not representative. In addition, many people might disagree with the importance of the subject and lack the belief that interventions are necessary.  
 
 * Which stakeholders are likely to be benefit and be harmed? What unanticipated consequences might occur?
 
-ANSWER GOES HERE!
-
-##### PUT IT TOGETHER HERE!
-
-I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph!
+Stakeholders that will benefit is likely people who want to know the truth about GHG emissions. The only stakeholders that could be harmed are people with ideas which are not supported by emissions data.
 
 ### Research Questions (JUSTIN + EVERYBODYS QUESTIONS):
 
@@ -110,6 +118,11 @@ I realized that these first two questions are more than a little bit vague, so I
 * How did COVID restrictions worldwide affect GHG emissions? - **Ryan**
   * Ryan, I suggest finding 3 countries with varying economic levels (developed, developing, low development, ex. Germany, Brazil, Vietnam), also be aware of the size difference of the countries you'll be comparing. This question is important in making our paper appear less W.E.I.R.D.
 
+
+[German GHG emmisions](https://www.umweltbundesamt.de/en/data/environmental-indicators/indicator-greenhouse-gas-emissions#at-a-glance)
+[Brazil GHG emmisions](https://ourworldindata.org/co2/country/brazil)
+[Vietnam GHG emmisions](https://climateactiontracker.org/countries/vietnam/)
+The motivation behind this question is to get data from a wide range of countries. Figuring out the restrictions each country had during lockdown and then analyzing there GHG emission data will answer questions about how effective certain restrictions are. This question is important because it also takes into account the difference in cultures around the world. Two countries that had similar policies might have had significantly different changes in GHG emission and much of that could be a result of culture. This question will be addressed by analyzing data from countries across the world with varying economic levels.
 
 * Did COVID make any significant change in the amount of pollution, compared to 'ideal' 0 GHG emissions models? How much pollution was actually prevented compared to pre-pandemic models of pollution?
   * This question mainly serves as a counter-argument to our other questions and will provide some validity to our claims. It will be useful to have a rough idea of how effective we can expect any ideas we come up from evaluating COVID restrictions can reasonably be. We will address this question by directly comparing GHG emission models with real world GHG emission data collected during the pandemic.
