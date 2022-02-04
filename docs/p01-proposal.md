@@ -16,7 +16,7 @@ CHECKLIST:
 -->
 
 # COVID-19 and GHG Emissions, What Can We Learn? - Code Name: Greenfoot
-* **Authors:** Justin Rhinehart @ EMAIL, Ryan Friesz @ EMAIL, Tom Jubin @ EMAIL, Liam Dale @ liamdale@uw.edu
+* **Authors:** Justin Rhinehart @ EMAIL, Ryan Friesz @ EMAIL, Tom Jubin @tomjubin.edu , Liam Dale @ liamdale@uw.edu
 * **Affiliation:** INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
 * **Date:** Winter 2022
 
@@ -107,8 +107,7 @@ I realized that these first two questions are more than a little bit vague, so I
 2. For datasets, I would focus first on transportation which will be where COVID restrictions lowered GHG the most, then onto increased utility (power, etc.) usage which is where COVID restrictions will have worsened GHG emissions the most.
 
 * How did COVID restrictions impact GHG emissions on a state-by-state basis? - **Tom**
-  * Tom, I would suggest finding 3 states with varying 'levels' of COVID restrictions (extreme, moderate, none, ex. California, Illinois, Florida), be aware of the different sizes of the states you compare.
-
+ * Total GHG emissions reported generally went down in the year 2020 compared to 2019 across the country, but in states like Washington or Illinois we saw a greater decline (if even) than states like Florida who’s total GHG emissions barely moved by the year. This could be a direct relation to the way different states handled lockdown during the pandemic.
 
 * How did COVID restrictions worldwide affect GHG emissions? - **Ryan**
   * Ryan, I suggest finding 3 countries with varying economic levels (developed, developing, low development, ex. Germany, Brazil, Vietnam), also be aware of the size difference of the countries you'll be comparing. This question is important in making our paper appear less W.E.I.R.D.
@@ -152,13 +151,10 @@ IPCC AR5 WGIII Database
 _(REMOVE LATER) See Design Brief, setions B.5 (Size and complexity) and B.6 (Data provenance). Use short sub-sections for describing the size and complexity of the dataset and for describing the origins fo the data. (about 400 words)_
 
 ### Expected Implications (TOM):
-With the Covid-19 pandemic, there was a decrease/downtrend in total greenhouse gas emissions outputted. The expected implications of this are that policymakers will be ablet to see that with dramatic global shutdown, minimizing the direct emissions into our atmosphere is very possible on a large scale. The obvious problem however is that life will not be in lockdown forever, but this temporary period may give some insight for a further permanent solution in decreasing emissions. By taking a deeper look into which and where certain emissions experienced drastic change, it may be possible to pinpoint or target a specific area/region to prioritize first for maximum efficiency when trying to tackle the issues.
-
-_Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (about 150 words)_
+* With the Covid-19 pandemic, there was a decrease/downtrend in total greenhouse gas emissions outputted. The expected implications of this are that policymakers will be able to see that with dramatic global shutdown, minimizing the direct emissions into our atmosphere is very possible on a large scale. The obvious problem however is that life will not be in lockdown forever, but this temporary period may give some insight for a further permanent solution in decreasing emissions. By taking a deeper look into which and where certain emissions experienced drastic change, it may be possible to pinpoint or target a specific area/region to prioritize first for maximum efficiency when trying to tackle the issues.
 
 ### Limitations (TOM):
-TEST
-_(REMOVE LATER) What limitations might you need to address? Briefly discuss. (about 150 words)_
+* The limitations to this study would be that we can only work with the provided data on record. Also, this data for reported GHG emissions is exactly that: reported. Therefore, although the data is as accurate as we have possible, it is most likely not exactly reflective of the true GHG emissions experienced.
 
 **Acknowledgements:**
 
