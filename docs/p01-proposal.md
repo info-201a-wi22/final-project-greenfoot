@@ -20,41 +20,112 @@ CHECKLIST:
 * **Affiliation:** INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
 * **Date:** Winter 2022
 
-### Abstract:
+### Abstract (LIAM):
 
-No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., becuase .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."
+_(REMOVE LATER) No more than three sentences that summarize your project. Focus on the very most important aspects. For example: (1) "Our main question is .... This question is important because .... To address the question, we will ...." (2) "We are concerned with ..., becuase .... To address this concern, we plan to ...." (3) "Consider that .... This is important because .... Accordingly, we plan to ...."_
 
 **Keywords:** example, example
 
-### Introduction:
+### Introduction (JUSTIN):
 
-Briefly introduce your project. (about 150 words)
+_(REMOVE LATER) Briefly introduce your project. (about 150 words)_
 
-### Design Situation:
-
-Use short sub-sections to describe your topic and the setting (that is, the sociotechnical situation), including project framing, human values, direct and indirect stakeholders, possible harms and benefits. See the Design Brief, section B.3. Note: You must include three citations to related work (URLs to similar work, high quality articles from the popular press, reseach papers, etc. ). You may find it helpful to include a figure. (about 400 words)
-
-### Research Questions:
-
-3-5 research questions. What motivates the questions? Why are they important? See the Deign Brief, section B.4. (about 150 words)
-
-* How did COVID restrictions impact GHG emissions on a state-by-state basis?
-* How did COVID restrictions worldwide affect GHG emissions? - Ryan
-* Did COVID make any significant change in the amount of pollution, compared to 'ideal' 0 GHG emissions models? How much pollution was actually prevented compared to pre-pandemic models of pollution? - Liam
-* How much GHG emissions have been prevented due to shutdown of factories worldwide?
+##### (REMOVE LATER) ANSWER THESE QUESTIONS:
 
 
-### The Dataset:
 
-See Design Brief, setions B.5 (Size and complexity) and B.6 (Data provenance). Use short sub-sections for describing the size and complexity of the dataset and for describing the origins fo the data. (about 400 words)
+### Design Situation (RYAN):
 
-### Expected Implications:
+_(REMOVE LATER) Use short sub-sections to describe your topic and the setting (that is, the sociotechnical situation), including project framing, human values, direct and indirect stakeholders, possible harms and benefits. See the Design Brief, section B.3. Note: You must include three citations to related work (URLs to similar work, high quality articles from the popular press, reseach papers, etc. ). You may find it helpful to include a figure. (about 400 words)_
 
-Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (about 150 words)
+##### (REMOVE LATER) ANSWER THESE QUESTIONS:
 
-### Limitations:
+###### _Framing_  the  topic  of  concern.
 
-What limitations might you need to address? Briefly discuss. (about 150 words)
+* What  is  the  topic  of  concern,  problem  domain  or  design  situation?
+
+ANSWER GOES HERE!
+
+* What  are  the  key  elements  of  the  topic?  What  are  the  key  scientific,  cultural,  social, governmental, of economic issues or questions?  
+
+ANSWER GOES HERE!
+
+###### _Human values:_
+
+* What human values are within or connected to your topic of concern?
+
+ANSWER GOES HERE!
+
+* Where do the values seem to originate?
+
+ANSWER GOES HERE!
+
+* What value tensions among different values are present?  
+
+ANSWER GOES HERE!
+
+###### _Stakeholders:_  
+
+* Who  are  the  direct  stakeholders  of  your  topic  of  interest?  
+
+ANSWER GOES HERE!
+
+* What  skills  are assumed?
+
+ANSWER GOES HERE!
+
+* What motivations and values do they hold? And, who are the indirect stakeholders.
+
+ANSWER GOES HERE!
+
+###### _Benefits  and  harms:_  
+
+* If  interventions  are  taken  with  data  and  technology,  what  are  the potential benefits and harms?
+
+ANSWER GOES HERE!
+
+* Which stakeholders are likely to be benefit and be harmed? What unanticipated consequences might occur?
+
+ANSWER GOES HERE!
+
+##### PUT IT TOGETHER HERE!
+
+I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph!
+
+### Research Questions (JUSTIN + EVERYBODYS QUESTIONS):
+
+_(REMOVE LATER) 3-5 research questions. What motivates the questions? Why are they important? See the Deign Brief, section B.4. (about 150 words)_
+
+##### TODO (REMOVE LATER):
+ 1. Answer these questions for your question: What  motivates  these  questions?  Why  are  these  questions  important?  Generally,  how will you address them?
+
+##### Questions (REMOVE LATER):
+
+* MAIN QUESTION: What can we learn from GHG emissions data gathered during the COVID-19 pandemic, along with the restrictions and lockdowns put in place to use in the future to effectively help bring down GHG emissions? Did the COVID-19 lockdowns even make a noticeable difference in GHG emissions?
+
+* How did COVID restrictions impact GHG emissions on a state-by-state basis? - **Tom**
+
+* How did COVID restrictions worldwide affect GHG emissions? - **Ryan**
+
+* Did COVID make any significant change in the amount of pollution, compared to 'ideal' 0 GHG emissions models? How much pollution was actually prevented compared to pre-pandemic models of pollution? - **Liam**
+
+* How much GHG emissions have been prevented due to shutdown of factories worldwide? - **Justin**
+
+###### WRITING GOES HERE:
+
+I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph!
+
+### The Dataset (LIAM + EVERYBODYS DATA):
+
+_(REMOVE LATER) See Design Brief, setions B.5 (Size and complexity) and B.6 (Data provenance). Use short sub-sections for describing the size and complexity of the dataset and for describing the origins fo the data. (about 400 words)_
+
+### Expected Implications (TOM):
+
+_(REMOVE LATER) Assuming you answer your research questions, briefly describe the expected or possible implications for technologists, designers, and policymakers. (about 150 words)_
+
+### Limitations (TOM):
+
+_(REMOVE LATER) What limitations might you need to address? Briefly discuss. (about 150 words)_
 
 **Acknowledgements:**
 
