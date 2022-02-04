@@ -28,7 +28,8 @@ _(REMOVE LATER) No more than three sentences that summarize your project. Focus 
 
 ### Introduction (JUSTIN):
 
-_(REMOVE LATER) Briefly introduce your project. (about 150 words)_
+The COVID-19 pandemic has brought massive change to the modern world. Lockdown restrictions intended to stem the spread of this disease saw fewer people driving, traveling and consuming, and more people isolating at home, rarely leaving. During the early waves of the pandemic we also saw temporary closures of large industrial centers, and a massive migration to remote, or online, work. Through our research, we plan to determine what effect, if any, these changes to modern life have had on both global and national greenhouse gas emissions. This collected data, once analyzed, has the capacity to show us what potential steps can be taken to curb future greenhouse gas emissions, and serve as a real-world display of what both minute and drastic changes in normal life can do to the environment.
+
 
 ##### (REMOVE LATER) ANSWER THESE QUESTIONS:
 
@@ -109,13 +110,23 @@ _(REMOVE LATER) 3-5 research questions. What motivates the questions? Why are th
 
 * Did COVID make any significant change in the amount of pollution, compared to 'ideal' 0 GHG emissions models? How much pollution was actually prevented compared to pre-pandemic models of pollution? - **Liam**
 
-* How much GHG emissions have been prevented due to shutdown of factories worldwide? - **Justin**
+* How much GHG emissions have been prevented due to shutdown of factories worldwide?
+  * COVID has closed many large industrial centers. It will be valuable to discover what effect their closures have had on global emissions, and can model cleaner manufacturing
+
 
 ###### WRITING GOES HERE:
 
 I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph!
 
 ### The Dataset (LIAM + EVERYBODYS DATA):
+EPA Air Emissions Dataset
+* This dataset contains approx. 8 millions entries of specific greenhouse gas types, emissions levels and locations across the united states from 2011 to 2020
+* Gathered from EPA monitoring systems and devices on the continental United states.
+European Environment Agency Industrial Reporting database
+
+European Environment Agency Industrial Reporting database
+* Dataset contains data pertaining to greenhouse gas emissions in participating European countries from 2010-2021, on a national, sector, and facility level
+* Gathered from EEA monitoring systems and devices in participating European countries
 
 _(REMOVE LATER) See Design Brief, setions B.5 (Size and complexity) and B.6 (Data provenance). Use short sub-sections for describing the size and complexity of the dataset and for describing the origins fo the data. (about 400 words)_
 
@@ -130,6 +141,10 @@ _(REMOVE LATER) What limitations might you need to address? Briefly discuss. (ab
 **Acknowledgements:**
 
 **References:**
+
+Environmental Protection Agency. (2020). Air Emissions Dataset (Version number) [CSV]. Retrieved from https://echo.epa.gov/tools/data-downloads
+
+European Environment Agency. (2021). Industrial Reporting database (v5) [CSV]. Retrieved from https://www.eea.europa.eu/data-and-maps/data/industrial-reporting-under-the-industrial-4
 
 ## Developer Notes
 
