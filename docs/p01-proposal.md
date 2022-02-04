@@ -105,7 +105,7 @@ I realized that these first two questions are more than a little bit vague, so I
 2. For datasets, I would focus first on transportation which will be where COVID restrictions lowered GHG the most, then onto increased utility (power, etc.) usage which is where COVID restrictions will have worsened GHG emissions the most.
 
 * How did COVID restrictions impact GHG emissions on a state-by-state basis? - **Tom**
-   * Total GHG emissions reported generally went down in the year 2020 compared to 2019 across the country, but in states like Washington or Illinois we saw a greater decline (if even) than states like Florida who’s total GHG emissions barely moved by the year. This could be a direct relation to the way different states handled lockdown during the pandemic.
+   * State policy varied during national lockdown, so this question will be able to explore if different policies across different states had a significant effect on GHG emissions. We will compare data before and after covid was prevelant to see how the data reflected across different states over the years.
 
 * How did COVID restrictions worldwide affect GHG emissions? - **Ryan**
   * Ryan, I suggest finding 3 countries with varying economic levels (developed, developing, low development, ex. Germany, Brazil, Vietnam), also be aware of the size difference of the countries you'll be comparing. This question is important in making our paper appear less W.E.I.R.D.
