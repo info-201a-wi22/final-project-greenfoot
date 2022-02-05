@@ -63,10 +63,10 @@ funded? Who is likely to benefit from the data or make money?
 * How did you obtain the data? Do you credit the source of the data?
 
 EPA Air Emissions Dataset
-* This dataset contains approx. 8 millions entries of specific greenhouse gas types, emissions levels and locations across the united states from 2011 to 2020. The dataset was gathered from EPA monitoring systems and devices on the continental United states.
+* This dataset contains approx. 8 million entries of specific greenhouse gas types, emissions levels and locations across the united states from 2011 to 2020. The dataset was gathered from EPA monitoring systems and devices on the continental United states, for the purpose of tracking ghg emissions in the United States. This data is held directly by, and obtainable from, the EPA, and as such is secure and trustworthy.
 
 European Environment Agency Industrial Reporting database
-* Dataset contains data pertaining to greenhouse gas emissions in participating European countries from 2010-2021, on a national, sector, and facility level. The data was gathered from EEA monitoring systems and devices in participating European countries.
+* Dataset contains data pertaining to greenhouse gas emissions in participating European countries from 2010-2021, on a national, sector, and facility level. The data was gathered from EEA monitoring systems and devices in participating European countries for the purpose of monitoring and reducing GHG emissions from the European Continent. This data was stored with the EEA, and obtained from the same group, and as such is both secure and trustworthy
 
 Global Carbon Budget 2021
 * The dataset contains fossil fuel emissions (CO2 mainly) dating from 1959 to 2021. Rows from the dataset are in MtC/yr (million tonne of carbon per year), with recorded features being types different ways of emission (Oil, Gas, etc.) and the country of origin. The data was collected from NOAA and a U.S. DOE organization, this data was funded by government programs and as such isn't profit focused. I believe this dataset was created primarily for climate researchers. The data is credible as it comes directly from a scientific journal (Earth System Science Data) and the Global Carbon Project which authored the report which collected and cleaned this data is a partner of United Nation's World Climate Research Programme.
