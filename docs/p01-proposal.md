@@ -45,20 +45,8 @@ _(REMOVE LATER) 3-5 research questions. What motivates the questions? Why are th
 
 ##### Questions (REMOVE LATER):
 
-* MAIN QUESTION: What can we learn from GHG emissions data gathered during the COVID-19 pandemic, along with the restrictions and lockdowns put in place to use in the future to effectively help bring down GHG emissions? Did the COVID-19 lockdowns even make a noticeable difference in GHG emissions?
+   United States lockdown policy varied greatly during the pandemic and we plan to explore if different policies across different states had a significant effect on GHG emissions. We will compare data before and after COVID was prevalent to see how the data reflected across different states over the years. We also plan to examine worldwide covid restrictions, and the effect that those had on global emissions numbers. We plan to collect and analyze data from several different nations of varying geography and financial status - to ensure we take note of important factors like culture. Continuing on the global scale, we plan to look at specific sources of pollutants, chiefly manufacturing. From the data and analysis we have gathered here, we plan to examine if the COVID-19 pandemic made any significant change in the amount of pollution, and how these changes can be applied to both model and plan for a greener future.
 
-* How did COVID restrictions impact GHG emissions on a state-by-state basis? - **Tom**
-   * State policy varied during national lockdown, so this question will be able to explore if different policies across different states had a significant effect on GHG emissions. We will compare data before and after COVID was prevalent to see how the data reflected across different states over the years.
-
-* How did COVID restrictions worldwide affect GHG emissions? - **Ryan**
-  * The motivation behind this question is to get data from a wide range of countries. Figuring out the restrictions each country had during lockdown and then analyzing there GHG emission data will answer questions about how effective certain restrictions are. This question is important because it also takes into account the difference in cultures around the world. Two countries that had similar policies might have had significantly different changes in GHG emission and much of that could be a result of culture. This question will be addressed by analyzing data from countries across the world with varying economic levels.
-
-* Did COVID make any significant change in the amount of pollution, compared to 'ideal' 0 GHG emissions models? How much pollution was actually prevented compared to pre-pandemic models of pollution?
-  * This question mainly serves as a counter-argument to our other questions and will provide some validity to our claims. It will be useful to have a rough idea of how effective we can expect any ideas we come up from evaluating COVID restrictions can reasonably be. We will address this question by directly comparing GHG emission models with real world GHG emission data collected during the pandemic.
-
-
-* How much GHG emissions have been prevented due to shutdown of factories worldwide?
-  * COVID has closed many large industrial centers. It will be valuable to discover what effect their closures have had on global emissions, and can model cleaner manufacturing
 
 
 ###### WRITING GOES HERE:
