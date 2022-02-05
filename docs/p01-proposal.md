@@ -51,10 +51,10 @@ funded? Who is likely to benefit from the data or make money?
 * How did you obtain the data? Do you credit the source of the data?
 
 EPA Air Emissions Dataset
-* This dataset contains approx. 8 millions entries of specific greenhouse gas types, emissions levels and locations across the united states from 2011 to 2020. The dataset was gathered from EPA monitoring systems and devices on the continental United states.
+* This dataset contains approx. 8 million entries of specific greenhouse gas types, emissions levels and locations across the united states from 2011 to 2020. The dataset was gathered from EPA monitoring systems and devices on the continental United states, for the purpose of tracking ghg emissions in the United States. This data is held directly by, and obtainable from, the EPA, and as such is secure and trustworthy.
 
 European Environment Agency Industrial Reporting database
-* Dataset contains data pertaining to greenhouse gas emissions in participating European countries from 2010-2021, on a national, sector, and facility level. The data was gathered from EEA monitoring systems and devices in participating European countries.
+* Dataset contains data pertaining to greenhouse gas emissions in participating European countries from 2010-2021, on a national, sector, and facility level. The data was gathered from EEA monitoring systems and devices in participating European countries for the purpose of monitoring and reducing GHG emissions from the European Continent. This data was stored with the EEA, and obtained from the same group, and as such is both secure and trustworthy
 
 Global Carbon Budget 2021
 * The dataset contains fossil fuel emissions (CO2 mainly) dating from 1959 to 2021. Rows from the dataset are in MtC/yr (million tonne of carbon per year), with recorded features being types different ways of emission (Oil, Gas, etc.) and the country of origin. The data was collected from NOAA and a U.S. DOE organization, this data was funded by government programs and as such isn't profit focused. I believe this dataset was created primarily for climate researchers. The data is credible as it comes directly from a scientific journal (Earth System Science Data) and the Global Carbon Project which authored the report which collected and cleaned this data is a partner of United Nation's World Climate Research Programme.
@@ -66,7 +66,7 @@ EPA GHGP Data by Year
 * This dataset contains *reported* total greenhouse gas emissions on a yearly basis for locations all across the United States from 2011-2020. The total emissions by year are broken down by different sectors across several sheets (i.e. direct emitters, onshore oil & gas, transmission pipelines, etc.) This dataset was created with the purpose of tracking all reported GHG emissions across the country for the public to view or for anyone who would like to pursue further research with. The data is credible as it was collected by the greenhouse gas reporting program of the environmental protection agency of the United States.      
 
 Our World in Data CO2 and GHG Emissions Dataset
-* BLAH BLAH BLAH
+* This dataset contains data from the Global Carbon Project, Climate Watch Portal and the BP Statistical Review of World Energy to track GHG Emissions on an annual, per capita, cumulative and consumption basis. While most of this data comes from reputable sources, BP is not known to be trustworthy when the topic of climate comes up, and their portion of this data could be misleading or skewed. This particular collection of data is a github repository, and as such is securely held, to an extent, but not necessarily secure in its consistency or factuality.
 
 ### Expected Implications:
 * With the Covid-19 pandemic, there was a decrease/downtrend in total greenhouse gas emissions outputted. The expected implications of this are that policymakers will be able to see that with dramatic global shutdown, minimizing the direct emissions into our atmosphere is very possible on a large scale. The obvious problem however is that life will not be in lockdown forever, but this temporary period may give some insight for a further permanent solution in decreasing emissions. By taking a deeper look into which and where certain emissions experienced drastic change, it may be possible to pinpoint or target a specific area/region to prioritize first for maximum efficiency when trying to tackle the issues.
@@ -92,6 +92,7 @@ Thompson, A. and Bendik-Keymer, J., 2012. Human Values and Institutional Respons
 
 UNEP - UN Environment Programme. 2022. Major Groups & Stakeholders. [online] Available at: <https://www.unep.org/civil-society-engagement/why-civil-society-matters/major-groups-stakeholders> [Accessed 5 February 2022].
 
+<!--
 ## Developer Notes
 
 * **Where is the project brief?**  [`../instructions/project-design-brief.pdf`](../instructions/project-design-brief.pdf).
@@ -120,3 +121,5 @@ UNEP - UN Environment Programme. 2022. Major Groups & Stakeholders. [online] Ava
 |Acknowledgements | Is there anyone you would like to thank? A librarian who helped you with your research? A Teaching Assistant? A friend who helped you find your data? Say thank you in this section.|
 |References | Include citations to your three references. See 2.0 Introduction. If you like, you can cite more than three references.  Please use a standard citation style of your choice.  See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library. |
 |Appendix A: Questions| Do you have questions for your TA or instructor?  Include them here.|
+
+-->
