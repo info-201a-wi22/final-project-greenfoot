@@ -47,12 +47,6 @@ _(REMOVE LATER) 3-5 research questions. What motivates the questions? Why are th
 
    United States lockdown policy varied greatly during the pandemic and we plan to explore if different policies across different states had a significant effect on GHG emissions. We will compare data before and after COVID was prevalent to see how the data reflected across different states over the years. We also plan to examine worldwide covid restrictions, and the effect that those had on global emissions numbers. We plan to collect and analyze data from several different nations of varying geography and financial status - to ensure we take note of important factors like culture. Continuing on the global scale, we plan to look at specific sources of pollutants, chiefly manufacturing. From the data and analysis we have gathered here, we plan to examine if the COVID-19 pandemic made any significant change in the amount of pollution, and how these changes can be applied to both model and plan for a greener future.
 
-
-
-###### WRITING GOES HERE:
-
-I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph! I am sample paragraph!
-
 ### The Dataset (LIAM + EVERYBODYS DATA):
 
 * Who or what is represented in the data?
@@ -89,7 +83,7 @@ Climate Action Tracker
 ### Limitations:
 * The limitations to this study would be that we can only work with the provided data on record. Also, this data for reported GHG emissions is exactly that: reported. Therefore, although the data is as accurate as we have possible, it is most likely not exactly reflective of the true GHG emissions experienced.
 
-**References:**
+### **References:**
 
 Environmental Protection Agency. (2020). Air Emissions Dataset (Version number) [CSV]. Retrieved from https://echo.epa.gov/tools/data-downloads
 
@@ -101,8 +95,11 @@ IPCC. (2015). AR5 Scenario Database (v1.0.2) [CSV]. Retrieved from https://tntca
 
 Ritchie, H., Roser, M., Mathieu, E. and Macdonald, B., 2022. GitHub - owid/co2-data: Data on CO2 and greenhouse gas emissions by Our World in Data. [online] GitHub. [CSV] Retrieved from https://github.com/owid/co2-data
 
+Mohsin M, Naseem S, Sarfraz M, Ivascu L and Albasher G (2021) COVID-19 and Greenhouse Gas Emission Mitigation: Modeling the Impact on Environmental Sustainability and Policies. Front. Environ. Sci. 9:764294. doi: 10.3389/fenvs.2021.764294
 
+Shockley, K., 2012. Human Values and Institutional Responses to Climate Change. Ethical Adaptation to Climate Change, pp.281-297.
 
+UNEP - UN Environment Programme. 2022. Major Groups & Stakeholders. [online] Available at: <https://www.unep.org/civil-society-engagement/why-civil-society-matters/major-groups-stakeholders> [Accessed 5 February 2022].
 
 ## Developer Notes
 
