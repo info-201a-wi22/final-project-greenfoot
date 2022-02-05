@@ -47,10 +47,10 @@ _(REMOVE LATER) 3-5 research questions. What motivates the questions? Why are th
 
 * MAIN QUESTION: What can we learn from GHG emissions data gathered during the COVID-19 pandemic, along with the restrictions and lockdowns put in place to use in the future to effectively help bring down GHG emissions? Did the COVID-19 lockdowns even make a noticeable difference in GHG emissions?
 
-* How did COVID restrictions impact GHG emissions on a state-by-state basis? - **Tom**
+* How did COVID restrictions impact GHG emissions on a state-by-state basis?
    * State policy varied during national lockdown, so this question will be able to explore if different policies across different states had a significant effect on GHG emissions. We will compare data before and after COVID was prevalent to see how the data reflected across different states over the years.
 
-* How did COVID restrictions worldwide affect GHG emissions? - **Ryan**
+* How did COVID restrictions worldwide affect GHG emissions?
   * The motivation behind this question is to get data from a wide range of countries. Figuring out the restrictions each country had during lockdown and then analyzing there GHG emission data will answer questions about how effective certain restrictions are. This question is important because it also takes into account the difference in cultures around the world. Two countries that had similar policies might have had significantly different changes in GHG emission and much of that could be a result of culture. This question will be addressed by analyzing data from countries across the world with varying economic levels.
 
 * Did COVID make any significant change in the amount of pollution, compared to 'ideal' 0 GHG emissions models? How much pollution was actually prevented compared to pre-pandemic models of pollution?
@@ -101,7 +101,7 @@ Climate Action Tracker
 ### Limitations:
 * The limitations to this study would be that we can only work with the provided data on record. Also, this data for reported GHG emissions is exactly that: reported. Therefore, although the data is as accurate as we have possible, it is most likely not exactly reflective of the true GHG emissions experienced.
 
-**References:**
+### **References:**
 
 Environmental Protection Agency. (2020). Air Emissions Dataset (Version number) [CSV]. Retrieved from https://echo.epa.gov/tools/data-downloads
 
@@ -113,8 +113,11 @@ IPCC. (2015). AR5 Scenario Database (v1.0.2) [CSV]. Retrieved from https://tntca
 
 Ritchie, H., Roser, M., Mathieu, E. and Macdonald, B., 2022. GitHub - owid/co2-data: Data on CO2 and greenhouse gas emissions by Our World in Data. [online] GitHub. [CSV] Retrieved from https://github.com/owid/co2-data
 
+Mohsin M, Naseem S, Sarfraz M, Ivascu L and Albasher G (2021) COVID-19 and Greenhouse Gas Emission Mitigation: Modeling the Impact on Environmental Sustainability and Policies. Front. Environ. Sci. 9:764294. doi: 10.3389/fenvs.2021.764294
 
+Shockley, K., 2012. Human Values and Institutional Responses to Climate Change. Ethical Adaptation to Climate Change, pp.281-297.
 
+UNEP - UN Environment Programme. 2022. Major Groups & Stakeholders. [online] Available at: <https://www.unep.org/civil-society-engagement/why-civil-society-matters/major-groups-stakeholders> [Accessed 5 February 2022].
 
 ## Developer Notes
 
