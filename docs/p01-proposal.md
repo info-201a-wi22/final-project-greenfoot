@@ -72,7 +72,7 @@ EPA GHGP Data by Year
 * This dataset contains *reported* total greenhouse gas emissions on a yearly basis for locations all across the United States from 2011-2020. The total emissions by year are broken down by different sectors across several sheets (i.e. direct emitters, onshore oil & gas, transmission pipelines, etc.) This dataset was created with the purpose of tracking all reported GHG emissions across the country for the public to view or for anyone who would like to pursue further research with. The data is credible as it was collected by the greenhouse gas reporting program of the environmental protection agency of the United States.      
 
 Our World in Data CO2 and GHG Emissions Dataset
-* BLAH BLAH BLAH
+* This dataset contains data from the Global Carbon Project, Climate Watch Portal and the BP Statistical Review of World Energy to track GHG Emissions on an annual, per capita, cumulative and consumption basis. While most of this data comes from reputable sources, BP is not known to be trustworthy when the topic of climate comes up, and their portion of this data could be misleading or skewed. This particular collection of data is a github repository, and as such is securely held, to an extent, but not necessarily secure in its consistency or factuality.
 
 Climate Action Tracker
 * BLAH BLAH BLAH
