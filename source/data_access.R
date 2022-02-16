@@ -2,7 +2,14 @@
 #----------------------------------------------------------------------------#
 # These functions are used to access data sources ... 
 #----------------------------------------------------------------------------#
-data_access_test <- function (name="World!") {
-  t <- paste0("Hello: ", name)
-  return(t)
+read_global_climate_budget <- function () {
+  filepath <- "../data/GLOBAL_CLIMATE_BUDGET/global_carbon_budget_data.csv"
+  df <- read.csv(filepath)
+  return(df)
+}
+
+read_IPCC_climate_model <- function () {
+  filepath <- "../data/IPCC_CLIMATE_MODELS/IPCC_Climate_Models.csv"
+  df <- read.csv(filepath)
+  return(df)
 }
