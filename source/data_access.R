@@ -13,3 +13,8 @@ read_IPCC_climate_model <- function () {
   df <- read.csv(filepath)
   return(df)
 }
+
+read_OWID_country_emission <- function () {
+  df <- read.csv("https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv")
+  return(df)
+}
