@@ -15,6 +15,7 @@ source("data_access.R")
 
 # Load in data sets
 GHG_realworld <- read_global_climate_budget()
+OWID_GHG_realworld <- read_OWID_climate_budget()
 GHG_model <- read_IPCC_climate_model()
 
 # Clean real world GHG data set for graphing
@@ -36,10 +37,10 @@ GHG_model_filtered <- GHG_model%>%
 GHG_model_filtered$year <- as.integer(gsub("X", "", GHG_model_filtered$year))
 
 GHG_model_filtered <- GHG_model_filtered%>%
-  filter(year <= "2020")%>%
+  filter(year <= "2020",
          MODEL == "GEM-E3-ICCS" |
          MODEL == "IMAGE 2.4" |
-         MODEL == "WITCH_AMPERE"
+         MODEL == "WITCH_AMPERE")
 
 line_graph <- ggplot() +
   geom_line(data=GHG_realworld_filtered, aes(x=year, y=emissions))+

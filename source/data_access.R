@@ -13,3 +13,9 @@ read_IPCC_climate_model <- function () {
   df <- read.csv(filepath)
   return(df)
 }
+
+read_OWID_climate_budget <- function () {
+  filepath <- "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv"
+  df <- read.csv(filepath)
+  return(df)
+}
