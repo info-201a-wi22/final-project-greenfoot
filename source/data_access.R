@@ -20,8 +20,8 @@ read_OWID_climate_budget <- function () {
   return(df)
 }
 
-read_table <- function () {
-  filepath <- "../data/EPA_GHGRP/Copy_2_of_ghgp_data_by_year.csv"
+read_GHGP_data_by_year <- function () {
+  filepath <- "../data/EPA_GHGRP/Copy_3_of_ghgp_data_by_year.csv"
   df <- read.csv(filepath)
   return(df)
 }
