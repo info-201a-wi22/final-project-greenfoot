@@ -14,7 +14,13 @@ read_IPCC_climate_model <- function () {
   return(df)
 }
 
+
 read_OWID_country_emission <- function () {
   df <- read.csv("https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv")
+}
+
+read_table <- function () {
+  filepath <- "../data/EPA_GHGRP/Copy_2_of_ghgp_data_by_year.csv"
+  df <- read.csv(filepath)
   return(df)
 }
