@@ -1,4 +1,5 @@
 library(dplyr)
+source("data_access.R")
 
 emissions <- read.csv("C:\\Users\\tomju\\Copy_3_of_ghgp_data_by_year.csv", na.strings = c("", "NA"))
 
