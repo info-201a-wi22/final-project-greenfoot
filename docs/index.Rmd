@@ -67,4 +67,4 @@ source("../source/c03_co2_emissions_map.R")
 ggplotly(co2_emissions_map)
 ```
 This chart is intended to show yearly average C02 emissions from the European continent, and their decrease over time, but greater decrease during the pandemic
-Describe any notable observations and insights from the chart
+There is a marked difference in levels of emissions during the pandemic years. While we see a slow decline before the pandemic, much larger year-over-year drops are seen during the pandemic.
