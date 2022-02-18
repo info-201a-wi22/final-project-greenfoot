@@ -1,21 +1,11 @@
 # The `/source` Directory
 
-All of our project code is found in this directory.  We further organize our code into 
-these sub-directories (TODO: Update/Delete)
+All of our project code is found in this directory.
 
 |Source Directories | Brief Description|
 |---------------| -----------------|
-|[xxx](./xxx) | Description ... 
-|[xxx](./xxx) | Description ... 
-
-
-
-# DEVELOPER NOTE 1: About ... 
-* All source code for your projects should go in the `/source` directory
-* To organize your code, you might decide to create sub-directories, which is fine.
-* If you use sub-directories, plese briefly describe them
-
-# DEVELOPER NOTE 2:  Clear and Concise Documentation
-* Please remember your audience (prospective employers, open source colleagues, TAs, Instructors). Therefore, 
-aim for clarity and conciseness.
-* When done, be sure to delete these NOTE sections and the example CSV file (which are intended for you, of course, not your audience!)
+|[c01_climate_model.R](./c01_climate_model.R) | This file creates our line chart for our Exploratory Analysis, along with some figures.
+|[c02_euro_avg.R](./c02_euro_avg.R) | This file creates our bar chart for our Exploratory Analysis, along with some figures.
+|[c03_co2_emissions_map.R](./c03_co2_emissions_map.R) | This file creates our map chart for our Exploratory Analysis, along with some figures.
+|[ghg_table.R](./ghg_table.R) | This file computes our aggregate table for our Exploratory Analysis.
+|[data_access.R](./data_access.R) | This file has several functions to pull our data from APIs / .csv files.
