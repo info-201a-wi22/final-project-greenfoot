@@ -28,7 +28,7 @@ library("plotly")
 rm(list = ls())
 
 # Set WD to source file
-setwd("C:/Users/liama/Downloads/INFO 201 Workspace/final-project-starter-Coevetive/source")
+# setwd("C:/Users/liama/Downloads/INFO 201 Workspace/final-project-starter-Coevetive/source")
 setwd("D:/Downloads/INFO Workspace/final-project-starter-Coevetive/source")
 
 # Link data_access.R
