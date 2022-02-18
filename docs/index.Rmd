@@ -13,16 +13,10 @@ output: html_document
 -->
 
 <!-- SOURCING FILES -->
-```{r, echo = FALSE, warning=FALSE}
+```{r, source, echo = FALSE, warning=FALSE, include=FALSE}
 source("../source/c01_climate_model.R")
-average_percentage_change <- average_percentage_change
-
 source("../source/c02_Euro_avg.R")
-# some_figs <- map_variable_here
-
 source("../source/c03_co2_emissions_map.R")
-# some_figs <- map_variable_here
-
 ```
 
 <!-- VARIABLES!!!
@@ -33,11 +27,13 @@ Venezuala_co2_2020 <- VENEZUALA CO2 2020
 -->
 
 # SUMMARY PARAGRAPH
-`r German_co2_2020`I noticed that this was the highest amount of co2 out of the three  countries I chose to look at more closely. I expected that Germany would emit the most since it as seen as the most industrialized out of the three variables. An interesting trend I see with Germany's co2 emissions is that they peaked in 1979, and since then they have been reducing at a significant rate. However between 2019 and 2020, the decrease in co2 was even steeper than normal which I would attribute to policies regarding the Covid 19 pandemic.
+`r German_co2_2020` I noticed that this was the highest amount of co2 out of the three  countries I chose to look at more closely. I expected that Germany would emit the most since it as seen as the most industrialized out of the three variables. An interesting trend I see with Germany's co2 emissions is that they peaked in 1979, and since then they have been reducing at a significant rate. However between 2019 and 2020, the decrease in co2 was even steeper than normal which I would attribute to policies regarding the Covid 19 pandemic.
 
 `r Brazil_co2_2020` Brazil had significantly less co2 emission than Germany, which makes sense to me because it is not as industrialized. However it is interesting to note that Brazil has over twice the population of Germany, so co2 emissions per capita are a lot higher. Brazil's all time co2 emissions peaked in 2014, and since then they have slowed down. Yet again, there is a very steep drop from 2019 to 2020 in co2 emissions, which shows the affect of the pandemic. However this decrease was more significant in Germany, which could show a difference in government policies.
 
-'r Venezuela_co2_2020' Venezuela had by far the lowest co2 emissions out of the three countries I looked at closely. In addition, the change in emission from 2019 to 2020 was the most dramatic in Venezuela, as total emission decreased by around 15%. This data shows that the pandemic likely caused a lot of co2 emissions to stop in Venezuela. 
+`r Venezuala_co2_2020` Venezuela had by far the lowest co2 emissions out of the three countries I looked at closely. In addition, the change in emission from 2019 to 2020 was the most dramatic in Venezuela, as total emission decreased by around 15%. This data shows that the pandemic likely caused a lot of co2 emissions to stop in Venezuela. 
+
+`r average_percentage_change`
 
 # TABLE
 ```{r}
@@ -47,15 +43,14 @@ Describe why you included the table, and what information it reveals.
 
 # CHART 1
 ```{r, echo = FALSE, warning=FALSE}
-source("../source/c01_climate_model.R")
 ggplotly(line_graph)
 ```
-Describe the purpose of including the chart
-Describe any notable observations and insights from the chart
+This chart shows CO2 Emissions in Mt/yr for both real world data and the IPCC's climate models. We specifically chose three models, an aggressive (WITCH_AMPERE), a middle of the road (IMAGE 2.4), and a light (GEM-E3-ICCS). The main purpose of including this graph is to demonstrate that GHG emissions actually decreased a notable amount of the pandemic, which is demonstrated by models that predicted what GHG emissions should have looked like if the pandemic hadn't happened.
+
+The main insight we can gather from this chart is that GHG emissions did decrease a significant amount from what we expected, roughly 14.28% less CO2 was released into the atmosphere if we compare an average of those three models to real world data.
 
 # CHART 2
 ```{r, echo = FALSE, warning=FALSE}
-source("../source/c02_euro_avg.R")
 print(bar_graph)
 ```
 Describe the purpose of including the chart
@@ -63,7 +58,6 @@ Describe any notable observations and insights from the chart
 
 # CHART 3
 ```{r, echo = FALSE, warning=FALSE}
-source("../source/c03_co2_emissions_map.R")
 ggplotly(co2_emissions_map)
 ```
 Describe the purpose of including the chart

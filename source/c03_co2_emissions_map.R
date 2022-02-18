@@ -7,7 +7,7 @@ library("patchwork")
 library("plotly")
 
 # Clears memory
-rm(list = ls())
+# rm(list = ls())
 
 # Set WD to source file
 # setwd("C:/Users/ryanf/Desktop/Data Science 201/final-project-starter-Coevetive/source")
@@ -60,7 +60,7 @@ German_co2_2020 <- owid_emissions_data_2020 %>%
   filter(country == "Germany")%>%
   pull(co2)
 
-Brazil_c02_2020 <- owid_emissions_data_2020 %>%
+Brazil_co2_2020 <- owid_emissions_data_2020 %>%
   filter(country == "Brazil")%>%
   pull(co2)
 

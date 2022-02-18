@@ -25,7 +25,7 @@ library("reshape2")
 library("plotly")
 
 # Clears memory
-rm(list = ls())
+# rm(list = ls())
 
 # Set WD to source file
 # setwd("C:/Users/liama/Downloads/INFO 201 Workspace/final-project-starter-Coevetive/source")
@@ -102,7 +102,7 @@ line_graph <- ggplot(data=GHG_filtered_complete, aes(x=year, y=emissions, color=
        caption = "Source: Global Carbon Budget and the IPCC")+
   theme_minimal()
 
-# ggplotly(line_graph)
+ggplotly(line_graph)
 
 # ---------------- Specific value questions -----------------
 
