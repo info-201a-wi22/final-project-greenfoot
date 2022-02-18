@@ -7,7 +7,7 @@ In our project, we use the following data files and Application Programming Inte
 |---------------| -----------------|
 |[global_carbon_budget_data.csv](./global_carbon_budget_data.csv) | This file contains carbon emissions data. (See report for details.) 
 |[IPCC_Climate_Models.csv](./IPCC_Climate_Models.csv) | This file contains climate models from the IPCC. (See report for details.)
-
+|[GHG_data_by_year.csv](./GHG_data_by_year.csv) | This file contains greenhouse gas emissions per year from the EPA. (See report for details.)
 ### Application Programming Interfaces (API) (TODO: Update/delete)
 
 * **New York Times Books API**. The _New York Times_ provides data for Best
