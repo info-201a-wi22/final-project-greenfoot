@@ -52,7 +52,7 @@ ggplotly(line_graph)
 
 # CHART 2
 ```{r, echo = FALSE, warning=FALSE}
-source("../source/c02_Euro_avg.R")
+source("../source/c02_euro_avg.R")
 print(bar_graph)
 ```
 
