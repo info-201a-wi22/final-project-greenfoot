@@ -17,7 +17,9 @@ euroC02avgs <- euroEmissions %>%
   mutate(yoyMeans = mean(emissions, na.rm = TRUE)) %>%
   distinct(yoyMeans)
 
+DecreaseAvg <- (euroC02avgs$yoyMeans[euroC02avgs$reportingYear == 2007] - euroC02avgs$yoyMeans[euroC02avgs$reportingYear == 2019]) / (nrow(euroC02avgs)-1)
 Decrease20192020 <- euroC02avgs$yoyMeans[euroC02avgs$reportingYear == 2019] - euroC02avgs$yoyMeans[euroC02avgs$reportingYear == 2020]
+Diff1920vsAvg <- Decrease20192020 - DecreaseAvg
 
 bar_graph <- plot_ly(
   data = euroC02avgs, 
@@ -33,3 +35,4 @@ bar_graph <- plot_ly(
     yaxis = list(title = "Mean C02 Emissions (Kg/year)")
   )
 
+42902802485-36767611598

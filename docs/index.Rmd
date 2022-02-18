@@ -66,5 +66,5 @@ Describe any notable observations and insights from the chart
 source("../source/c03_co2_emissions_map.R")
 ggplotly(co2_emissions_map)
 ```
-Describe the purpose of including the chart
+This chart is intended to show yearly average C02 emissions from the European continent, and their decrease over time, but greater decrease during the pandemic
 Describe any notable observations and insights from the chart
