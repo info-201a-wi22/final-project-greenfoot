@@ -20,7 +20,14 @@ owid_emissions_data_2020 <- owid_emissions_data %>%
 
 owid_emissions_data_2020 <- na.omit(owid_emissions_data_2020)%>%
   within(country[country == "United States"] <- "USA")%>%
-  within(country[country == "United Kingdom"] <- "UK")
+  within(country[country == "United Kingdom"] <- "UK")%>%
+  within(country[country == "Democratic Republic of Congo"] <- "Democratic Republic of the Congo")%>%
+  within(country[country == "Congo"] <- "Republic of Congo")%>%
+  within(country[country == "Cote d'Ivoire"] <- "Ivory Coast")%>%
+  within(country[country == "Czechia"] <- "Czech Republic")
+
+  
+  
   
 country_shape_data <- map_data("world") %>%
   rename(country = region)
@@ -38,3 +45,17 @@ co2_emissions_map <- ggplot(owid_emissions_data_2020_w_shape_data)+
        fill = "Mt/yr of CO2")
 
 ggplotly(co2_emissions_map)
+
+
+##Significant Figures
+German_co2_2020 <- owid_emissions_data_2020 %>%
+  filter(country == "Germany")%>%
+  pull(co2)
+
+Brazil_c02_2020 <- owid_emissions_data_2020 %>%
+  filter(country == "Brazil")%>%
+  pull(co2)
+
+Venezuala_co2_2020 <- owid_emissions_data_2020 %>%
+  filter(country == "Venezuela") %>%
+  pull(co2)
