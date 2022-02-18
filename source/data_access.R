@@ -24,3 +24,9 @@ read_GHGP_data_by_year <- function () {
   df <- read.csv(filepath)
   return(df)
 }
+
+read_Euro_Manufact_Avg_by_Year <- function () {
+  filepath <- "../data/F1_1_Total Releases at National Level into Air.csv"
+  df <- read.csv(filepath)
+  return(df)
+}
