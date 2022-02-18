@@ -1,26 +1,35 @@
 # Example: Project Data Access Functions  ----
 #----------------------------------------------------------------------------#
-# These functions are used to access data sources ... 
+# These functions are used to access data sources ...
 #----------------------------------------------------------------------------#
 read_global_climate_budget <- function () {
-  filepath <- "../data/GLOBAL_CLIMATE_BUDGET/global_carbon_budget_data.csv"
+  filepath <- "../data/global_carbon_budget_data.csv"
   df <- read.csv(filepath)
   return(df)
 }
 
 read_IPCC_climate_model <- function () {
-  filepath <- "../data/IPCC_CLIMATE_MODELS/IPCC_Climate_Models.csv"
+  filepath <- "../data/IPCC_Climate_Models.csv"
   df <- read.csv(filepath)
   return(df)
 }
 
 
 read_OWID_country_emission <- function () {
-  df <- read.csv("https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv")
+  filepath  <- "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv"
+  df <- read.csv(filepath)
+  return(df)
 }
 
+# INCORRECT FILEPATH FIX!!!
 read_GHGP_data_by_year <- function () {
   filepath <- "../data/EPA_GHGRP/Copy_3_of_ghgp_data_by_year.csv"
+  df <- read.csv(filepath)
+  return(df)
+}
+
+read_Euro_Manufact_Avg_by_Year <- function () {
+  filepath <- "../data/F1_1_Total Releases at National Level into Air.csv"
   df <- read.csv(filepath)
   return(df)
 }

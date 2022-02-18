@@ -1,13 +1,48 @@
 ---
-title: "Your Project Title"
-author: "project team members"
-date: "1/22/2022"
+title: "COVID-19 and GHG Emissions, What Can We Learn?"
+author: "Justin Rhinehart @ jjrhine@uw.edu, Ryan Friesz @ ref7@uw.edu, Tom Jubin @ tomjubin@uw.edu, Liam Dale @ liamdale@uw.edu"
+date: "2/18/2022"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+<!-- INSERT P01
+WRITE AUDIENCE PARAGRAPH
+WRITE SUMMARY PARAGRAPH
+LINK CHARTS/TABLES -->
+
+SUMMARY PARAGRAPH
+```{r}
+
+```
+
+TABLE
+```{r}
+
+```
+
+CHART 1
+```{r}
+source("../source/c01_climate_model.R")
+ggplotly(line_graph)
+```
+
+CHART 2
+```{r}
+source("../source/c02_Euro_avg.R")
+print(bar_graph)
+```
+
+CHART 3
+```{r}
+source("../source/c03_co2_emissions_map.R")
+ggplotly(co2_emissions_map)
+```
+
+
 
 ## What is this file for?
 

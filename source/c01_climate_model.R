@@ -102,7 +102,7 @@ line_graph <- ggplot(data=GHG_filtered_complete, aes(x=year, y=emissions, color=
        caption = "Source: Global Carbon Budget and the IPCC")+
   theme_minimal()
 
-ggplotly(line_graph)
+# ggplotly(line_graph)
 
 # ---------------- Specific value questions -----------------
 
