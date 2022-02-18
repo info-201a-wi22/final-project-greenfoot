@@ -19,6 +19,8 @@ source("data_access.R")
 # Load in data sets
 owid_emissions_data <- read_OWID_country_emission()
 
+# CLEANING!
+
 owid_emissions_data_2020 <- owid_emissions_data %>%
   filter(year == "2020")%>% 
   select(country, co2)
@@ -33,6 +35,8 @@ country_shape_data <- map_data("world") %>%
 owid_emissions_data_2020_w_shape_data <- left_join(country_shape_data, owid_emissions_data_2020, by="country")%>%
   subset(country != "Antarctica")
 
+# CHARTS!
+
 co2_emissions_map <- ggplot(owid_emissions_data_2020_w_shape_data)+
   geom_polygon(mapping = aes(group = group, x = long, y = lat, fill = co2), color = NA)+
   scale_fill_continuous(low = "yellow", high = "red")+
@@ -42,4 +46,4 @@ co2_emissions_map <- ggplot(owid_emissions_data_2020_w_shape_data)+
        caption = "Our World In Data, 2021",
        fill = "Mt/yr of CO2")
 
-ggplotly(co2_emissions_map)
+# ggplotly(co2_emissions_map)

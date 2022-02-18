@@ -3,9 +3,11 @@ library(ggplot2)
 library(leaflet)
 library(plotly)
 
+setwd("D:/Downloads/INFO Workspace/final-project-starter-Coevetive/source")
+
 source("data_access.R")
 
-euroEmissions <- read_Euro_Manufact_Avg_by_Year
+euroEmissions <- read_Euro_Manufact_Avg_by_Year()
 colnames(euroEmissions) <- c('country', 'pollutant', 'reportingYear', 'emissions')
 
 
@@ -16,7 +18,7 @@ euroC02avgs <- euroEmissions %>%
   distinct(yoyMeans)
 
 
-plot_ly(
+bar_graph <- plot_ly(
   data = euroC02avgs, 
   x = ~reportingYear,     
   y = ~yoyMeans,       
