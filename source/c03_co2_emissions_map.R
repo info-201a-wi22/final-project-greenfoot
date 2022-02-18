@@ -53,9 +53,7 @@ co2_emissions_map <- ggplot(owid_emissions_data_2020_w_shape_data)+
        caption = "Our World In Data, 2021",
        fill = "Mt/yr of CO2")
 
-<<<<<<< HEAD:source/map_graph.R
 ggplotly(co2_emissions_map)
-
 
 ##Significant Figures
 German_co2_2020 <- owid_emissions_data_2020 %>%
@@ -69,6 +67,3 @@ Brazil_c02_2020 <- owid_emissions_data_2020 %>%
 Venezuala_co2_2020 <- owid_emissions_data_2020 %>%
   filter(country == "Venezuela") %>%
   pull(co2)
-=======
-# ggplotly(co2_emissions_map)
->>>>>>> d0b97a742a0fab7e88bb3fd9862455c043640078:source/c03_co2_emissions_map.R

@@ -21,8 +21,7 @@ euroC02avgs <- euroEmissions %>%
 bar_graph <- plot_ly(
   data = euroC02avgs, 
   x = ~reportingYear,     
-  y = ~yoyMeans,       
-  barmode='group',
+  y = ~yoyMeans,
   type = "bar",  
   alpha = .7,   
   hovertext = ~reportingYear 
@@ -32,3 +31,4 @@ bar_graph <- plot_ly(
     xaxis = list(title = "Year"),
     yaxis = list(title = "Mean C02 Emissions (Kg/year)")
   )
+
