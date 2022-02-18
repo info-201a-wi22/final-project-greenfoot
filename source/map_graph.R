@@ -1,3 +1,4 @@
+# initialize libraries
 library("tidyverse")
 library("dplyr")
 library("maps")
@@ -5,13 +6,17 @@ library("mapproj")
 library("patchwork")
 library("plotly")
 
+# Clears memory
 rm(list = ls())
 
+# Set WD to source file
 # setwd("C:/Users/ryanf/Desktop/Data Science 201/final-project-starter-Coevetive/source")
 setwd("D:/Downloads/INFO Workspace/final-project-starter-Coevetive/source")
 
+# Link data_access.R
 source("data_access.R")
 
+# Load in data sets
 owid_emissions_data <- read_OWID_country_emission()
 
 owid_emissions_data_2020 <- owid_emissions_data %>%
@@ -30,7 +35,7 @@ owid_emissions_data_2020_w_shape_data <- left_join(country_shape_data, owid_emis
 
 co2_emissions_map <- ggplot(owid_emissions_data_2020_w_shape_data)+
   geom_polygon(mapping = aes(group = group, x = long, y = lat, fill = co2), color = NA)+
-  scale_fill_viridis_c()+
+  scale_fill_continuous(low = "yellow", high = "red")+
   theme_void() +
   labs(title = "CO2 Emissions in 2020 by Country",
        subtitle = "Million Tons of CO2",
