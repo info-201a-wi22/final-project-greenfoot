@@ -33,7 +33,11 @@ Venezuala_co2_2020 <- VENEZUALA CO2 2020
 -->
 
 # SUMMARY PARAGRAPH
+`r German_co2_2020`I noticed that this was the highest amount of co2 out of the three  countries I chose to look at more closely. I expected that Germany would emit the most since it as seen as the most industrialized out of the three variables. An interesting trend I see with Germany's co2 emissions is that they peaked in 1979, and since then they have been reducing at a significant rate. However between 2019 and 2020, the decrease in co2 was even steeper than normal which I would attribute to policies regarding the Covid 19 pandemic.
 
+`r Brazil_co2_2020` Brazil had significantly less co2 emission than Germany, which makes sense to me because it is not as industrialized. However it is interesting to note that Brazil has over twice the population of Germany, so co2 emissions per capita are a lot higher. Brazil's all time co2 emissions peaked in 2014, and since then they have slowed down. Yet again, there is a very steep drop from 2019 to 2020 in co2 emissions, which shows the affect of the pandemic. However this decrease was more significant in Germany, which could show a difference in government policies.
+
+'r Venezuela_co2_2020' Venezuela had by far the lowest co2 emissions out of the three countries I looked at closely. In addition, the change in emission from 2019 to 2020 was the most dramatic in Venezuela, as total emission decreased by around 15%. This data shows that the pandemic likely caused a lot of co2 emissions to stop in Venezuela. 
 
 # TABLE
 ```{r}
