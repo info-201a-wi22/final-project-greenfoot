@@ -1,76 +1,121 @@
 ---
 title: "COVID-19 and GHG Emissions, What Can We Learn?"
-author: "Justin Rhinehart @ jjrhine@uw.edu, Ryan Friesz @ ref7@uw.edu, Tom Jubin @ tomjubin@uw.edu, Liam Dale @ liamdale@uw.edu"
-date: "2/18/2022"
 output: html_document
 ---
-
-<!--
-[]INSERT P01
-[]WRITE AUDIENCE PARAGRAPH
-[]WRITE SUMMARY PARAGRAPH
-[x]LINK CHARTS/TABLES
--->
 
 <!-- SOURCING FILES -->
 ```{r, source, echo = FALSE, warning=FALSE, include=FALSE}
 source("../source/c01_climate_model.R")
 source("../source/c02_Euro_avg.R")
 source("../source/c03_co2_emissions_map.R")
+source("../source/ghg_table.R")
 ```
+* **Authors:** Justin Rhinehart @ jjrhine@uw.edu, Ryan Friesz @ ref7@uw.edu, Tom Jubin @ tomjubin@uw.edu, Liam Dale @ liamdale@uw.edu
+* **Affiliation:** INFO-201: Technical Foundations of Informatics - The Information School - University of Washington
+* **Date:** Winter 2022
 
-<!-- VARIABLES!!!
-average_percentage_change <- AVG. MODEL EMISSIONS VS REAL WORLD PERCENT DIFF. (14.28% decrease)
-German_co2_2020 <- GERMANY CO2 2020
-Brazil_c02_2020 <- BRAZIL CO2 2020
-Venezuala_co2_2020 <- VENEZUALA CO2 2020
--->
+### Abstract:
 
-# SUMMARY PARAGRAPH
-`r German_co2_2020` I noticed that this was the highest amount of co2 out of the three  countries I chose to look at more closely. I expected that Germany would emit the most since it as seen as the most industrialized out of the three variables. An interesting trend I see with Germany's co2 emissions is that they peaked in 1979, and since then they have been reducing at a significant rate. However between 2019 and 2020, the decrease in co2 was even steeper than normal which I would attribute to policies regarding the Covid 19 pandemic.
+We are concerned with GHG emissions and the drastic effects continued pollution will have on the global climate. Within our lifetime we will be facing the damaging effects of a man-made climate crisis. To address this concern, we plan to use the COVID-19 pandemic and the short term drop in GHG emissions which followed as a model and example of how we can reduce our global communities carbon footprint, and protect our future.
 
-`r Brazil_co2_2020` Brazil had significantly less co2 emission than Germany, which makes sense to me because it is not as industrialized. However it is interesting to note that Brazil has over twice the population of Germany, so co2 emissions per capita are a lot higher. Brazil's all time co2 emissions peaked in 2014, and since then they have slowed down. Yet again, there is a very steep drop from 2019 to 2020 in co2 emissions, which shows the affect of the pandemic. However this decrease was more significant in Germany, which could show a difference in government policies.
+**Keywords:** greenhouse gases, COVID-19, pandemic, climate change, lockdown
 
-`r Venezuela_co2_2020` Venezuela had by far the lowest co2 emissions out of the three countries I looked at closely. In addition, the change in emission from 2019 to 2020 was the most dramatic in Venezuela, as total emission decreased by around 15%. This data shows that the pandemic likely caused a lot of co2 emissions to stop in Venezuela.
+### Introduction:
 
-`r average_percentage_change`
+The COVID-19 pandemic has brought massive change to the modern world. Lockdown restrictions intended to stem the spread of this disease saw fewer people driving, traveling, and consuming, and more people isolating at home and rarely leaving. During the early waves of the pandemic we  saw temporary closures of large industrial centers, and a massive migration to remote, or online, work. Through our research, we plan to determine what effect, if any, these changes to modern work and life have had on both global and national greenhouse gas emissions. This collected data, once analyzed, has the capacity to show us what potential steps can be taken to curb future greenhouse gas emissions, and serve as a real-world display of what both minute and drastic changes in modern life can do to the impact humanity has on the environment.
 
-Europes' overall industrial C02 emissions have been in decline for the past 15 years, with an average yearly decrease between 2007 and 2019 of `r DecreaseAvg` Kg. With the outbreak of the pandemic in 2019, we can see the average yearly decline increased to `r Decrease20192020` Kg, a massive `r Diff1920vsAvg` Kg difference from the average up until that point. This helps to display how much the pandemic affected industrial C02 ouput in Europe.
+### Design Situation:
 
-# TABLE
-```{r}
-# source("../source/ghg_table.R")
+Our primary topic of concern is greenhouse gas emissions. This matters to us as in our lifetimes, we will experience the drastic effects of global warming on our climate, and need tools to combat it. In this report, we plan to explore if greenhouse gas emissions decreased due to pandemic restrictions, and gather what we can learn from the predicted decrease in emissions. Our issue falls within the problem domain, as it is an issue that has multiple answers and can not be solved with a single ‘design’. Some key questions to consider are those pertaining to the lockdowns and how they lowered greenhouse gas emissions from “transport, industries, and fossil fuel burning”, alongside agricultural industries which also saw a drop in ammonia emissions. (Mohsin et al., 2021)
+
+As a single-planet species with significant control over our environment, it is our responsibility to maintain the only home we have to support future generations and the further propagation of our species. The simple wellbeing of the human race is invaluable, and the consequences of inaction on climate change and greenhouse gas emissions are drastic and terrible (Thompson and Bendik-Keymer, 2012). The interest of businesses in the realm of fossil fuels and manufacturing aligns directly against the further success of the human race, pushing for further pollution and emissions, with little regard for much beyond Year over year profits.
+
+The unfortunate reality of rising greenhouse gas emissions and global warming is that everyone has a stake in the hardship and disasters that they invite. Two main trains of thought tend to accompany this topic, those of apathy and denial, and those of hopeful progress and change. Those in the denial camp include oil, gas, and coal giants like BP, who have a long history of suppressing and outright lying about the negative effects of greenhouse gas emissions. Their bottom line is harmed by the steps that need to be taken to fix the planet, and they tend to stand strongly against progress. Those who hold hope for the future, and work to undo, or at least halt, the damage being caused are motivated by the possibility that there is no future, unless changes are made. There are no indirect stakeholders here. Everyone is in the same boat, as we only have one planet that we have to share. (Major Groups & Stakeholders, 2022)
+
+Interventions with data and technology have already happened with greenhouse gas emissions, and the benefits have been immense in allowing us to prove and show the harm we are causing to our planet. The harm we have discovered, however, has been immense, with many companies attempting to shift blame away from their actions either through funding studies which undermine the actual effects of greenhouse gasses, or by pointing fingers at individual people, or developing countries. It would be fair to argue that all of our direct stakeholders would benefit from a healthy climate in the long-run, but short-term stakeholders such as businesses and governments will be harmed by practices that attempt to reverse the damage they are already doing, and prevent or minimize the effects of climate change.
+
+### Research Questions:
+
+United States lockdown policy varied greatly during the pandemic, and we plan to explore if different policies across different states had a significant effect on greenhouse gas emissions. We will compare data from before and after COVID was prevalent to examine how the data changed across different states over several years. We also plan to examine worldwide COVID restrictions, and the effect that those had on global emissions numbers. We plan to collect and analyze data from several different nations of varying geography and financial status to ensure we take note of important factors like culture. Continuing on the global scale, we plan to look at specific sources of pollutants, chiefly manufacturing. From the data and analysis we have gathered here, we plan to examine if the COVID-19 pandemic made any significant change in the levels of greenhouse gas emissions, and how these changes can be applied to both model and plan for a greener future.
+
+### The Dataset:
+
+EPA Air Emissions Dataset
+
+ * This dataset contains approximately 8 million entries of specific greenhouse gas types, emissions levels and locations across the united states from 2011 to 2020. The dataset was gathered from EPA monitoring systems and devices in the continental United states, for the purpose of tracking greenhouse gas emissions. This data is held directly by, and obtainable from, the EPA, and as such is secure and trustworthy.
+
+European Environment Agency Industrial Reporting database
+
+ * Dataset contains data pertaining to greenhouse gas emissions in participating European countries from 2010-2021, on a national, sector, and facility level. The data was gathered from EEA monitoring systems and devices in participating European countries for the purpose of monitoring and reducing GHG emissions from the European Continent. This data was stored with the EEA, and obtained from the same group, and as such is both secure and trustworthy
+
+Global Carbon Budget 2021
+
+ * The dataset contains fossil fuel emissions (CO2 mainly) dating from 1959 to 2021. Row units for the dataset are in MtC/yr (million tonne of carbon per year), with recorded features being types of emission (Oil, Gas, etc.) and the country of origin. The data was collected from NOAA and a U.S. DOE organization. This data was funded by government programs and as such isn't profit focused. This dataset was created primarily for climate researchers. The data is credible as it comes directly from a scientific journal (Earth System Science Data) and the Global Carbon Project which authored the report. This data was collected and cleaned by a partner of the United Nation's World Climate Research Program.
+
+IPCC AR5 WGIII Database
+
+ * This dataset contains predictive models from the Intergovernmental Panel on Climate Change (IPCC) dating from 2015 to the present. The models used date from 2005-2100 and contain measurements in Mt CO2/yr, Mt CH4/yr, etc. as well as population and GDP estimates. The data is sorted by region (ASIA, NA, SA, etc.). These models were created by the United Nation's IPCC, and as such guarantees that the dataset was created with a non-profit focus, for the purpose of being used in IPCC's annual climate report. This data is credible as it originates from the United Nations.
+
+EPA GHGP Data by Year
+
+ * This dataset contains **reported** total greenhouse gas emissions on a yearly basis for many locations across the United States from 2011-2020. The total emissions by year are broken down by different sectors across several subsets (i.e. direct emitters, onshore oil & gas, transmission pipelines) This dataset was created with the purpose of tracking all reported GHG emissions across the country for the public to view, or for anyone who would like to pursue further research. The data is credible as it was collected by the greenhouse gas reporting program of the Environmental Protection Agency of the United States.
+
+Our World in Data CO2 and GHG Emissions Dataset
+
+ * This dataset contains data from the Global Carbon Project, Climate Watch Portal and the BP Statistical Review of World Energy to track GHG Emissions on an annual, per capita, cumulative, and consumption basis. While most of this data comes from reputable sources, BP is not known to be trustworthy when the topic of climate comes up, and their portion of this data could be misleading or skewed to favor their business interests. This particular collection of data is a github repository, and as such is securely held, to an extent, but not necessarily secure in its consistency or factuality.
+
+### Expected Implications:
+
+With the Covid-19 pandemic, there was a decrease/downtrend in total emitted greenhouse gas emissions. The expected implications of this is that policymakers/politicians will be able to see that with dramatic global shutdown, minimizing the direct emissions into our atmosphere is very possible on a large scale. The obvious problem however is that we will not be in lockdown forever, but this temporary period may give some insight for a more permanent solution in decreasing emissions. By taking a deeper look into which types of emissions, and where certain emissions saw drastic change, it may be possible to pinpoint or target a specific area/region to prioritize first for maximum effect when attempting to tackle the issue of climate change.
+
+### Limitations:
+
+The limitations to this study pertain to our inability to work with any data other than the provided data and records of other groups. Beyond this, the data for reported GHG emissions is exactly that: reported. Therefore, although the data is as accurate as we have possible, it is most likely not exactly reflective of the true GHG emissions experienced as third party interests have the capacity to skew results
+
+### Exploratory Analysis:
+
+#### Summary:
+
+`r German_co2_2020` This was the highest amount of co2 out of the three countries we chose to look at more closely. This could be expected because Germany is seen as the most industrialized out of the three countries. Another interesting trend we see with Germany's co2 emissions is that they peaked in 1979, and they have been dropping at a significant rate ever since. However, between 2019 and 2020, the decrease in co2 was even steeper than normal which we would attribute to the Covid-19 lockdown. For our next variable we look at the country of Brazil. `r Brazil_co2_2020` Brazil had significantly less co2 emission than Germany, which makes sense because it is not as industrialy advanced. However, it is interesting to note that Brazil has more than twice the population of Germany, which makes co2 emissions per capita are a lot higher. Brazil's all time co2 emissions peaked in 2014, but have slowed down since. Yet again, there is a very steep drop from 2019 to 2020 in co2 emissions, which shows the affect of the pandemic worldwide. Our third variable we chose to focus on was Venezuela. `r Venezuela_co2_2020` Venezuela had by far the lowest co2 emissions out of the three countries we looked at closely. In addition, the change in emission from 2019 to 2020 was more dramatic in Venezuela than Brazil or Germany, as total emission decreased by around 15%. With this data, it shows us the pandemic likely caused a lot of co2 emissions to stop in Venezuela. Next we wanted to look at the IPCC's climate models from 2015 and compare the data collected from 2005 to 2020, We observed a `r average_percentage_change`% decrease in MT of co2 released globally during 2020 compared to an average of the included models. This is significant because it demonstrates globally we had a rather significant decrease is global CO2 emissions because of the pandemic in 2020. Finally, we looked at Europes' overall industrial C02 emissions. We can see they have been in the decline for the past 15 years, with an average yearly decrease between 2007 and 2019 of `r DecreaseAvg` Kg. With the outbreak of the pandemic in 2020, we can see the average yearly decline increased to `r Decrease20192020` Kg, a massive `r Diff1920vsAvg` Kg difference from the average up until that point. This also helps to display how much the pandemic affected industrial C02 ouput in Europe. Overall, we can see globally that different countries had different reactions to the pandemic in turns of co2 emissions based of their local government lockdowns.
+
+#### Charts & Table:
+```{r, table, echo = FALSE, warning=FALSE}
+library(knitr)
+kable(final_table, caption = "US State CO2 emissions by MT/yr (Flordia, Illinois, Texas, Washington)")
 ```
-Describe why you included the table, and what information it reveals.
+This table shows the sum of total reported emissions per metric ton (MT). The state column includes four states: Florida, Illinois, Texas, and Washington. We specifically chose these states because we wanted to see how the emissions for 2019, which was pre-covid, would compare to 2020, which was post-covid. As you can see, three of the four states had a significant drop in emissions in the year 2020, but Florida actually had a small increase. This is a unique observation because Florida was widely known to have some of the least strict lockdown rules, which could be the reason their emissions rose while other states were plummeting.
 
-This table shows the sum of total reported emissions per million metric ton (MMT). The state column includes four states: Florida, Illinois, Texas, and Washington. We specifically chose these states because we wanted to see how the emissions for 2019, which was pre-covid, would compare to 2020, which was post-coivd. As you can see, three of the four states had a significant drop in emissions in the year 2020, but Florida actually had a small increase. This is a unique observation because Florida was widely known to have some of the least strict lockdown rules, which could be the reason their emissions rose while other states were plummeting.
-
-# CHART 1
-```{r, echo = FALSE, warning=FALSE}
+```{r, chart_1, echo = FALSE, warning=FALSE, message=FALSE}
 ggplotly(line_graph)
 ```
-This chart shows CO2 Emissions in Mt/yr for both real world data and the IPCC's climate models. We specifically chose three models, an aggressive (WITCH_AMPERE), a middle of the road (IMAGE 2.4), and a light (GEM-E3-ICCS). The main purpose of including this graph is to demonstrate that GHG emissions actually decreased a notable amount of the pandemic, which is demonstrated by models that predicted what GHG emissions should have looked like if the pandemic hadn't happened.
+This chart shows CO2 Emissions in MMT/yr globally for both real world data and the IPCC's climate models. We specifically chose three models, an aggressive (WITCH_AMPERE), a middle of the road (IMAGE 2.4), and a light (GEM-E3-ICCS). The main purpose of including this graph is to demonstrate that GHG emissions actually decreased a notable amount during the pandemic, which is demonstrated by models that predicted what GHG emissions should have looked like if the pandemic hadn't happened. The main insight we can gather from this chart is that GHG emissions did decrease a significant amount from what we expected, if we compare an average of those three models to real world data, roughly 14.28% less CO2 was released into the atmosphere globally.
 
-The main insight we can gather from this chart is that GHG emissions did decrease a significant amount from what we expected, roughly 14.28% less CO2 was released into the atmosphere if we compare an average of those three models to real world data.
-
-# CHART 2
-```{r, echo = FALSE, warning=FALSE}
+```{r, chart_2, echo = FALSE, warning=FALSE}
 bar_graph
 ```
 This chart is intended to show yearly average C02 emissions from the European continent, and their decrease over time, but greater decrease during the pandemic
 There is a marked difference in levels of emissions during the pandemic years. While we see a slow decline before the pandemic, much larger year-over-year drops are seen during the pandemic.
 
-
-# CHART 3
-```{r, echo = FALSE, warning=FALSE}
+```{r, chart_3, echo = FALSE, warning=FALSE}
 ggplotly(co2_emissions_map)
 ```
-Describe the purpose of including the chart
-Describe any notable observations and insights from the chart
+This map shows the amount of CO2 emissions on a country by country basis. The purpose of this chart is to see if covid restrictions across the globe affected emissions differently depending on different countries' policies during the covid lockdown. A notable observation from this map was Venzuela 84.609, because while pretty much the whole world experienced some sort of dip in CO2 emissions, Venezuela experienced an even larger drop in emissions than expected.
 
-# CHART 4
-```{r, echo = FALSE, warning=FALSE}
+### **References:**
 
-```
-Describe the purpose of including the chart
-Describe any notable observations and insights from the chart
+Environmental Protection Agency. (2020). Air Emissions Dataset (Version number) [CSV]. Retrieved from https://echo.epa.gov/tools/data-downloads
+
+European Environment Agency. (2021). Industrial Reporting database (v5) [CSV]. Retrieved from https://www.eea.europa.eu/data-and-maps/data/industrial-reporting-under-the-industrial-4
+
+Friedlingstein, P., Jones, M. W., O'Sullivan, M., Andrew, R. M., Bakker, D. C. E., Hauck, J., Le Quéré, C., Peters, G. P., Peters, W., Pongratz, J., Sitch, S., Canadell, J. G., Ciais, P., Jackson, R. B., Alin, S. R., Anthoni, P., Bates, N. R., Becker, M., Bellouin, N., Bopp, L., Chau, T. T. T., Chevallier, F., Chini, L. P., Cronin, M., Currie, K. I., Decharme, B., Djeutchouang, L., Dou, X., Evans, W., Feely, R. A., Feng, L., Gasser, T., Gilfillan, D., Gkritzalis, T., Grassi, G., Gregor, L., Gruber, N., Gürses, Ö., Harris, I., Houghton, R. A., Hurtt, G. C., Iida, Y., Ilyina, T., Luijkx, I. T., Jain, A. K., Jones, S. D., Kato, E., Kennedy, D., Klein Goldewijk, K., Knauer, J., Korsbakken, J. I., Körtzinger, A., Landschützer, P., Lauvset, S. K., Lefèvre, N., Lienert, S., Liu, J., Marland, G., McGuire, P. C., Melton, J. R., Munro, D. R., Nabel, J. E. M. S., Nakaoka, S.-I., Niwa, Y., Ono, T., Pierrot, D., Poulter, B., Rehder, G., Resplandy, L., Robertson, E., Rödenbeck, C., Rosan, T. M., Schwinger, J., Schwingshackl, C., Séférian, R., Sutton, A. J., Sweeney, C., Tanhua, T., Tans, P. P., Tian, H., Tilbrook, B., Tubiello, F., van der Werf, G., Vuichard, N., Wada, C., Wanninkhof, R., Watson, A., Willis, D., Wiltshire, A. J., Yuan, W., Yue, C., Yue, X., Zaehle, S., and Zeng, J.: Global Carbon Budget 2021, Earth Syst. Sci. Data Discuss. [preprint], https://doi.org/10.5194/essd-2021-386, in review, (2021). [XLSX] Retrieved from https://www.icos-cp.eu/science-and-impact/global-carbon-budget/2021. [CSV] Retrieved from https://zenodo.org/record/5569235#.YYxC8tZBxjw.
+
+IPCC. (2015). AR5 Scenario Database (v1.0.2) [CSV]. Retrieved from https://tntcat.iiasa.ac.at/AR5DB/dsd?Action=htmlpage&page=about
+
+Ritchie, H., Roser, M., Mathieu, E. and Macdonald, B., 2022. GitHub - owid/co2-data: Data on CO2 and greenhouse gas emissions by Our World in Data. [online] GitHub. [CSV] Retrieved from https://github.com/owid/co2-data
+
+Mohsin M, Naseem S, Sarfraz M, Ivascu L and Albasher G (2021) COVID-19 and Greenhouse Gas Emission Mitigation: Modeling the Impact on Environmental Sustainability and Policies. Front. Environ. Sci. 9:764294. doi: 10.3389/fenvs.2021.764294
+
+Thompson, A. and Bendik-Keymer, J., 2012. Human Values and Institutional Responses to Climate Change. Ethical Adaptation to Climate Change, pp.281-297.
+
+UNEP - UN Environment Programme. 2022. Major Groups & Stakeholders. [online] Available at: <https://www.unep.org/civil-society-engagement/why-civil-society-matters/major-groups-stakeholders> [Accessed 5 February 2022].
+

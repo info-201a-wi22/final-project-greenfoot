@@ -96,7 +96,7 @@ line_graph <- ggplot(data=GHG_filtered_complete, aes(x=year, y=emissions, color=
   scale_color_manual(values = cols)+
   labs(title = "Real CO2 Emissions vs. Model CO2 Emissions", 
        x = "Years", 
-       y = "Mt/yr of CO2",
+       y = "MMT/yr of CO2",
        color = "Model/Dataset:",
        subtitle = "Data from 2005 to 2020",
        caption = "Source: Global Carbon Budget and the IPCC")+

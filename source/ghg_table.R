@@ -26,4 +26,4 @@ table <- prop_table
 table$Emissions_Difference <- table_2020_sum_of_total_reported_direct_emissions$Emissions_2020-table_2019_sum_of_total_reported_direct_emissions$Emissions_2019
 
 final_table <- table[ c(10,16,46,51), ]
-View(final_table)
+# View(final_table)
