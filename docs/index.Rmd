@@ -5,11 +5,11 @@ date: "2/18/2022"
 output: html_document
 ---
 
-<!-- 
+<!--
 []INSERT P01
 []WRITE AUDIENCE PARAGRAPH
 []WRITE SUMMARY PARAGRAPH
-[x]LINK CHARTS/TABLES 
+[x]LINK CHARTS/TABLES
 -->
 
 <!-- SOURCING FILES -->
@@ -31,17 +31,19 @@ Venezuala_co2_2020 <- VENEZUALA CO2 2020
 
 `r Brazil_co2_2020` Brazil had significantly less co2 emission than Germany, which makes sense to me because it is not as industrialized. However it is interesting to note that Brazil has over twice the population of Germany, so co2 emissions per capita are a lot higher. Brazil's all time co2 emissions peaked in 2014, and since then they have slowed down. Yet again, there is a very steep drop from 2019 to 2020 in co2 emissions, which shows the affect of the pandemic. However this decrease was more significant in Germany, which could show a difference in government policies.
 
-`r Venezuala_co2_2020` Venezuela had by far the lowest co2 emissions out of the three countries I looked at closely. In addition, the change in emission from 2019 to 2020 was the most dramatic in Venezuela, as total emission decreased by around 15%. This data shows that the pandemic likely caused a lot of co2 emissions to stop in Venezuela. 
+`r Venezuela_co2_2020` Venezuela had by far the lowest co2 emissions out of the three countries I looked at closely. In addition, the change in emission from 2019 to 2020 was the most dramatic in Venezuela, as total emission decreased by around 15%. This data shows that the pandemic likely caused a lot of co2 emissions to stop in Venezuela.
 
 `r average_percentage_change`
 
-`r Diff1920vsAvg`
+Europes' overall industrial C02 emissions have been in decline for the past 15 years, with an average yearly decrease between 2007 and 2019 of `r DecreaseAvg` Kg. With the outbreak of the pandemic in 2019, we can see the average yearly decline increased to `r Decrease20192020` Kg, a massive `r Diff1920vsAvg` Kg difference from the average up until that point. This helps to display how much the pandemic affected industrial C02 ouput in Europe.
 
 # TABLE
 ```{r}
 # source("../source/ghg_table.R")
 ```
 Describe why you included the table, and what information it reveals.
+
+This table shows the sum of total reported emissions per million metric ton (MMT). The state column includes four states: Florida, Illinois, Texas, and Washington. We specifically chose these states because we wanted to see how the emissions for 2019, which was pre-covid, would compare to 2020, which was post-coivd. As you can see, three of the four states had a significant drop in emissions in the year 2020, but Florida actually had a small increase. This is a unique observation because Florida was widely known to have some of the least strict lockdown rules, which could be the reason their emissions rose while other states were plummeting.
 
 # CHART 1
 ```{r, echo = FALSE, warning=FALSE}
@@ -55,12 +57,20 @@ The main insight we can gather from this chart is that GHG emissions did decreas
 ```{r, echo = FALSE, warning=FALSE}
 bar_graph
 ```
-Describe the purpose of including the chart
-Describe any notable observations and insights from the chart
+This chart is intended to show yearly average C02 emissions from the European continent, and their decrease over time, but greater decrease during the pandemic
+There is a marked difference in levels of emissions during the pandemic years. While we see a slow decline before the pandemic, much larger year-over-year drops are seen during the pandemic.
+
 
 # CHART 3
 ```{r, echo = FALSE, warning=FALSE}
 ggplotly(co2_emissions_map)
 ```
-This chart is intended to show yearly average C02 emissions from the European continent, and their decrease over time, but greater decrease during the pandemic
-There is a marked difference in levels of emissions during the pandemic years. While we see a slow decline before the pandemic, much larger year-over-year drops are seen during the pandemic.
+Describe the purpose of including the chart
+Describe any notable observations and insights from the chart
+
+# CHART 4
+```{r, echo = FALSE, warning=FALSE}
+
+```
+Describe the purpose of including the chart
+Describe any notable observations and insights from the chart
