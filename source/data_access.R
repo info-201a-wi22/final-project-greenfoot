@@ -21,10 +21,9 @@ read_OWID_country_emission <- function () {
   return(df)
 }
 
-# INCORRECT FILEPATH FIX!!!
 read_GHGP_data_by_year <- function () {
   filepath <- "../data/GHG_data_by_year.csv"
-  df <- read.csv(filepath)
+  df <- read.csv(filepath, na.strings = c("", "NA"))
   return(df)
 }
 
