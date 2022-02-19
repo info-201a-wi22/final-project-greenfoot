@@ -1,7 +1,6 @@
 library(dplyr)
-source("data_access.R")
 
-emissions <- read.csv("C:\\Users\\tomju\\Copy_3_of_ghgp_data_by_year.csv", na.strings = c("", "NA"))
+emissions <- read.csv("C:\\Users\\tomju\\GHG_data_by_year.csv", na.strings = c("", "NA"))
 
 table_2017_sum_of_total_reported_direct_emissions <- emissions %>%
   group_by(State) %>%
@@ -19,6 +18,10 @@ table_2020_sum_of_total_reported_direct_emissions <- emissions %>%
   group_by(State) %>%
   summarize(Emissions_2020=sum(as.numeric(gsub(",", "",X2020.Total.reported.direct.emissions),na.rm=TRUE),na.rm=TRUE)) 
 
-table <- data.frame(table_2020_sum_of_total_reported_direct_emissions, Emissions_2019=table_2019_sum_of_total_reported_direct_emissions$Emissions_2019, Emissions_2018=table_2018_sum_of_total_reported_direct_emissions$Emissions_2018, Emissions_2017=table_2017_sum_of_total_reported_direct_emissions$Emissions_2017)
-View(table)
+#full_table <- data.frame(table_2020_sum_of_total_reported_direct_emissions, Emissions_2019=table_2019_sum_of_total_reported_direct_emissions$Emissions_2019, Emissions_2018=table_2018_sum_of_total_reported_direct_emissions$Emissions_2018, Emissions_2017=table_2017_sum_of_total_reported_direct_emissions$Emissions_2017)
+prop_table <- data.frame(table_2020_sum_of_total_reported_direct_emissions, Emissions_2019=table_2019_sum_of_total_reported_direct_emissions$Emissions_2019)
+table <- prop_table
+table$Emissions_Difference <- table_2020_sum_of_total_reported_direct_emissions$Emissions_2020-table_2019_sum_of_total_reported_direct_emissions$Emissions_2019
 
+final_table <- table[ c(10,16,46,51), ]
+View(final_table)
