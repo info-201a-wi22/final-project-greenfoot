@@ -1,6 +1,6 @@
 library(dplyr)
 
-emissions <- read.csv("C:\\Users\\tomju\\GHG_data_by_year.csv", na.strings = c("", "NA"))
+emissions <- read_GHGP_data_by_year()
 
 table_2017_sum_of_total_reported_direct_emissions <- emissions %>%
   group_by(State) %>%
