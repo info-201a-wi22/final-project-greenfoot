@@ -43,6 +43,8 @@ Europes' overall industrial C02 emissions have been in decline for the past 15 y
 ```
 Describe why you included the table, and what information it reveals.
 
+This table shows the sum of total reported emissions per million metric ton (MMT). The state column includes four states: Florida, Illinois, Texas, and Washington. We specifically chose these states because we wanted to see how the emissions for 2019, which was pre-covid, would compare to 2020, which was post-coivd. As you can see, three of the four states had a significant drop in emissions in the year 2020, but Florida actually had a small increase. This is a unique observation because Florida was widely known to have some of the least strict lockdown rules, which could be the reason their emissions rose while other states were plummeting. 
+
 # CHART 1
 ```{r, echo = FALSE, warning=FALSE}
 ggplotly(line_graph)
