@@ -35,6 +35,8 @@ Venezuala_co2_2020 <- VENEZUALA CO2 2020
 
 `r average_percentage_change`
 
+`r Diff1920vsAvg`
+
 # TABLE
 ```{r}
 # source("../source/ghg_table.R")
@@ -51,7 +53,7 @@ The main insight we can gather from this chart is that GHG emissions did decreas
 
 # CHART 2
 ```{r, echo = FALSE, warning=FALSE}
-print(bar_graph)
+bar_graph
 ```
 Describe the purpose of including the chart
 Describe any notable observations and insights from the chart
