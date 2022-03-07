@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+body {
+  background-color: #262626;
+  font-family: 'Roboto', sans-serif;
+  color: white; /* text color */
+}
+
+/* Change header text to imported font */
+h2 {
+/*  font-family: 'Roboto', sans-serif; */
+  color: black;
+}
+
+/* Make text visible on inputs */
+.shiny-input-container {
+  color: black;
+}
