@@ -73,13 +73,11 @@ ui <- fluidPage(
     # --- INTRO ---
 
     tabPanel("Intro",
-             sidebarPanel(),
-             mainPanel(
-      img(src = "IntroImage.webp"),
+      img(src = "IntroImage.webp", style = "width: 75%;"),
       p("We are concerned with GHG emissions and the drastic effects continued pollution will have on the global climate. Within our lifetime we will be facing the damaging effects of a man-made climate crisis. Because of this, the purpose of our project will be to use the COVID-19 pandemic and the short term drop in GHG emissions which followed as a model and example of how we can reduce our global communities carbon footprint, and protect our future."),
       p("The COVID-19 pandemic has brought massive change to the modern world. Lockdown restrictions intended to stem the spread of this disease saw fewer people driving, traveling, and consuming, and more people isolating at home and rarely leaving. During the early waves of the pandemic we saw temporary closures of large industrial centers, and a massive migration to remote, or online, work. Through our research, we plan to determine what effect, if any, these changes to modern work and life have had on both global and national greenhouse gas emissions. This collected data, once analyzed, has the capacity to show us what potential steps can be taken to curb future greenhouse gas emissions, and serve as a real-world display of what both minute and drastic changes in modern life can do to the impact humanity has on the environment. "),
       p("We used a wide variety of datasets for our project. They include: EPA Air Emissions Dataset, European Environment Agency Industrial Reporting database, Global Carbon Budget 2021, IPCC AR5 WGIII Database, EPA GHGP Data by Year, Our World in Data CO2 and GHG Emissions Dataset")
-             )
+             
     ),
 
     # --- BAR PLOT ---
@@ -164,7 +162,7 @@ ui <- fluidPage(
 
     tabPanel("Summary",
 
-      img(src = "table.png"),
+      img(src = "table.png", style = "width: 75%;"),
 
       br(),
 
