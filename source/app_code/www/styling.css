@@ -6,12 +6,18 @@ body {
   color: white; /* text color */
 }
 
-/* Change header text to imported font */
 h2 {
-/*  font-family: 'Roboto', sans-serif; */
   color: black;
 }
 
+h1 {
+  font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+
+}
 
 /* Make text visible on inputs */
 .shiny-input-container {
