@@ -68,19 +68,6 @@ ui <- fluidPage(
   title = "European Greenhouse Gas Emissions",
   position = "fixed-top",
   
-  header = list(
-    tags$style(type = "text/css", "body {padding-top: 50px;}", "body {padding-left: 10px;}"),
-    hr(),
-    hr()
-  ),
-  
-  footer = list(
-    tags$style(type = "text/css", "body {padding-top: 50px;}", "body {padding-left: 10px;}"),
-    hr(),
-    HTML("Authors: Justin Rhinehart @ jjrhine@uw.edu, Ryan Friesz @ ref7@uw.edu, Tom Jubin @ tomjubin@uw.edu, Liam Dale @ liamdale@uw.edu"),
-    hr()
-  ),
-  
   navbarPage("COVID-19 and GHG Emissions, What Can We Learn?",
     
     # --- INTRO ---
@@ -184,5 +171,8 @@ ui <- fluidPage(
       p("REPORT GOES HERE...")
     
     )
-  )
+  ),
+  br(),
+  
+    "Authors: Justin Rhinehart @ jjrhine@uw.edu, Ryan Friesz @ ref7@uw.edu, Tom Jubin @ tomjubin@uw.edu, Liam Dale @ liamdale@uw.edu"
 )

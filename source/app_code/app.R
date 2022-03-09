@@ -6,7 +6,7 @@ library(leaflet)
 library(reshape2)
 library(RColorBrewer)
 
-setwd("D:/Downloads/INFO Workspace/final-project-starter-Coevetive/source/app_code")
+#setwd("D:/Downloads/INFO Workspace/final-project-starter-Coevetive/source/app_code")
 
 source("backend/calcs.R")
 source("app_server.R")
