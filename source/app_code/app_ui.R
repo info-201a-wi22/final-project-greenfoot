@@ -159,8 +159,28 @@ ui <- fluidPage(
     # --- SUMMARY ---
     
     tabPanel("Summary",
-    
-      p("SUMMARY GOES HERE...")
+      
+      img(src = "table.png"),
+      
+      br(),
+      
+      p("The first of our three major takeaways can be seen thanks to our US State CO2 emissions by MT/yr (Flordia, Illinois, Texas, Washington) table. We were able to see that covid restrictions across different states in the U.S. played an impact on resulting GHG emissions for the year 2020 (covid). Florida was widely known for having some of, if not the loosest and most lenient covid lockdown rules. We see here that while other states had extremely significant drops in their GHG emissions, they actually rose slightly in Florida. This means that Florida continues on the rising trend when most everywhere else it dropped. Because of this, we can confidently say that it is possible to limit ghg emissions significantly when stricter restrictions are in place."),
+      
+      br(),
+      
+      plotlyOutput("bar_chart_summary"),
+      
+      br(),
+      
+      p("Our 2nd key takeaway can be seen in our Real co2 vs model co2 emissions chart. According to the model, if the Covid pandemic never happened we would have seen roughly 14.28% less CO2 released into the atmosphere globally. This is a staggering number, because if we could find a way to achieve just a fraction of this, we would be able to make real progress in reducing co2 emissions enough to have a real  impact on our environment. This once again proves that with sanctions and restrictions, harmful emissions can be reduced more than we thought were capable."),
+      
+      br(),
+      
+      plotlyOutput("line_chart_summary"),
+      
+      br(),
+      
+      p("Our 3rd and final takeaway can be seen in our Yearly average manufacturing co2 emissions across europe chart. Covid caused a major decrease for the large manufacturing and industrialization economy in Europe. Because of this, it is observed that 2020 was also the lowest co2 emissions output in Europe from this sector in a while, with the biggest year over year drop from the year prior. As like the majority of the world in 2020, Europe had a significant drop in co2 emissions during this time period, which only further proves the same thing in a different part of the world: large decreases in co2 emissions are still very much possible in the future.")
     
     ),
     
@@ -210,6 +230,16 @@ ui <- fluidPage(
       
       h3("Limitations:"),
       p("The limitations to this study pertain to our inability to work with any data other than the provided data and records of other groups. Beyond this, the data for reported GHG emissions is exactly that: reported. Therefore, although the data is as accurate as we have possible, it is most likely not exactly reflective of the true GHG emissions experienced as third party interests have the capacity to skew results"),
+      
+      h3("Findings:"),
+      p("The first research question our group had was how would different Covid-19 policies affect GHG emissions. Within the United States, there was a large variance in the types of policies different states had. For example, some states had harsher lockdowns and closed more businesses whereas other states were less restrictive. We examined four states: Florida, Illinois, Texas, and Washington, and compared their GHG emissions both pre and during the pandemic. The only state out of this group that saw an increase in GHG emissions during the Covid-19 pandemic was Florida. Florida did have less restrictive policies in response to the pandemic, so it makes sense that GHG emissions would not have been decreased. For example, the governor of Florida tried to make wearing masks in public school illegal, did not impose stay-at-home orders, or vaccination mandates (1). All of these policies likely contributed to more traveling and normal everyday life which wouldn't have changed GHG emissions as we have seen in other states. The next question our group asked was, globally what change in GHG emissions did a variety of countries experience. By variety, we wanted to examine countries with different cultures, geography, and financial status. We examined Germany, Venezuela, and Brazil. The country which had the sharpest decline in GHG emissions was Venezuela, followed by Germany, and then Brazil. This was not the result that some of the group was expecting. As Germany is the most industrialized country of the group, one might have assumed they would have been the most affected. However, upon doing further research we have learned that Venezuela was experiencing an economic crisis that was made worse during Covid-19. An economic crisis would likely lead to a sharp decline in GHG emissions, so it makes sense that Venezuela was affected the most.  Our final research question was to see how the pandemic specifically affected manufacturing pollution. In this case, our analysis found that total world GHG emissions related to manufacturing did decrease in 2020 compared to 2019. This link between a global pandemic and a decrease in manufacturing pollution is represented in our data because of the decrease in GHG emissions related to manufacturing. A decrease in manufacturing GHG emissions makes sense because of the Covid-19 restriction and the difficulties businesses faced during the pandemic. "),
+      
+      h3("Discussion:"),
+      p("One of the most important things our group learned from our research is that policies can make a huge difference in GHG emissions. For example, even though the entire United States was experiencing the Covid-19 pandemic, states had different policies and laws in response. In states like Florida, there were very few restrictions and people were generally able to continue life living like normal. Conversely, in Washington State, there were very strict regulations which made it harder for people to do a lot of activities and traveling that is normal. These differences manifested themselves in the data we examined. Washington State had a significant decrease in GHG emissions from 2019 to 2020 (roughly 16% lower), Florida saw an increase in GHG emissions. Another large difference we observed was that different countries in the world were affected by Covid-19 differently. For example, in Venezuela, the pandemic worsened and led to a bad economic crisis. Many people in Venezuela lost their jobs, and this unemployment and economic collapse has certainly lent help to a sharper decrease in GHG emissions. Germany also saw a significant decrease in GHG emissions, but unlike Venezuela, its economy was able to stay stable. The likely culprit for their decrease in emissions was because of less traveling and restrictions like lockdowns. By looking at the different effects that the pandemic has caused on GHG emissions, it is clear to see that policies can lead to clear reductions in emissions. Deciding on how to structure future policies in order to reduce emissions is an important part of mitigating climate change.
+"),
+      
+      h3("Conclusion:"),
+      p("Overall, after analyzing many different datasets we have come to the conclusion that reducing GHG emissions on a significant global scale is possible for the future. The Covid-19 pandemic has provided us a \"bubble\" of data to essentially test this theory, and the data shows us that government restrictions can in fact be a main catalyst in reducing emissions. With this information, government and policy leaders should be aware that the answer to our rising GHG emission problem might not be impossible after all."),
       
       h3("References:"),
       p("Environmental Protection Agency. (2020). Air Emissions Dataset (Version number) [CSV]. Retrieved from https://echo.epa.gov/tools/data-downloads"),

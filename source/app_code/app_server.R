@@ -159,5 +159,102 @@ server <- function(input, output) {
 
   })
   
+# ---------------- SUMMARY PAGE GRAPHS -----------------
+
+  output$bar_chart_summary <- renderPlotly({
+    
+    # DATA CLEANING
+    
+    euroC02avgs <- euroEmissions %>%
+      filter(pollutant == "Carbon dioxide (CO2)") %>%
+      group_by(reportingYear) %>%
+      mutate(yoyMeans = mean(emissions, na.rm = TRUE)) %>%
+      distinct(yoyMeans)
+    
+    # PLOTTING
+    
+    bar_graph <- plot_ly(
+      data = euroC02avgs, 
+      x = ~reportingYear,     
+      y = ~yoyMeans,
+      type = "bar",  
+      alpha = .7,   
+      hovertext = ~reportingYear 
+    ) %>%
+      layout(
+        title = "Yearly Average Manufacturing C02 Emissions Across Europe",
+        xaxis = list(title = "Year"),
+        yaxis = list(title = "Mean C02 Emissions (Kg/year)")
+      )
+    
+    bar_graph
+    
+  })
+  
+  output$line_chart_summary <- renderPlotly({
+    
+    # DATA CLEANING
+    
+    year_range <- c(2005, 2020)
+    
+    # Clean real world GHG data set for graphing
+    GHG_realworld_filtered <- GHG_realworld%>%
+      # filter for global data and year range
+      filter(Country == "Global",
+             Year >= year_range[1])%>%
+      # rename and create new columns for easier plotting
+      mutate(year = Year, emissions = Total, MODEL = "REAL WORLD")%>%
+      # clean out unneeded data
+      select(year, emissions, MODEL)
+    
+    # Clean model GHG data set for graphing
+    GHG_model_filtered <- GHG_model%>%
+      # filters for REGION, VARIABLE, and SCENARIO
+      filter(REGION == "World",
+             VARIABLE == "Emissions|CO2",
+             SCENARIO == "AMPERE3-Base")%>%
+      # 'melts' off the year values for easy plotting
+      melt(id.vars=c("MODEL", "SCENARIO", "REGION", "VARIABLE", "UNIT"))%>%
+      # rename columns for easier reference
+      rename(year = variable, emissions = value)%>%
+      # clean out unneeded data
+      select(MODEL, year, emissions)
+    
+    # fix variable type and formatting for year columns
+    GHG_model_filtered$year <- as.integer(gsub("X", "", GHG_model_filtered$year))
+    
+    # grab year range and specific models
+    GHG_model_filtered <- GHG_model_filtered%>%
+      filter(year <= year_range[2] & year >= year_range[1], MODEL == input$chosen_model1 | MODEL == input$chosen_model2)
+    
+    # combine data sets for easier plotting
+    GHG_filtered_complete <- bind_rows(GHG_realworld_filtered, GHG_model_filtered)
+    
+    # PLOTTING
+    
+    cols <- c(# GEM-E3-ICCS
+      "#a8dadc",
+      # IMAGE 2.4
+      "#457b9d",
+      # REAL WORLD
+      "#e63946",
+      # WITCH_AMPERE
+      "#1d3557")
+    
+    line_graph <- ggplot(data=GHG_filtered_complete, aes(x=year, y=emissions, color=MODEL))+
+      geom_smooth()+
+      scale_color_manual(values = cols)+
+      labs(title = "Real CO2 Emissions vs. Model CO2 Emissions", 
+           x = "Years", 
+           y = "MMT/yr of CO2",
+           color = "Model/Dataset:",
+           subtitle = "Data from 2005 to 2020",
+           caption = "Source: Global Carbon Budget and the IPCC")+
+      theme_minimal()
+    
+    ggplotly(line_graph)
+    
+  })
+    
 }
 
