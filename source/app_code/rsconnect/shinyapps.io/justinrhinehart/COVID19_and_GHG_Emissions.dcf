@@ -1,0 +1,13 @@
+name: COVID19_and_GHG_Emissions
+title: COVID19_and_GHG_Emissions
+username:
+account: justinrhinehart
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5811707
+bundleId: 5659514
+url: https://justinrhinehart.shinyapps.io/COVID19_and_GHG_Emissions/
+when: 1646800604.05178
+lastSyncTime: 1646800604.05178
+asMultiple: FALSE
+asStatic: FALSE
